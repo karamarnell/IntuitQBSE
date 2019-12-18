@@ -1,0 +1,3011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+	<string name="app_name"></string>
+<!-- ==================================== -->
+	<!-- I don't know why we need my nasme in here -->
+	<string name="my_name"></string>
+<!-- ==================================== -->
+	<!-- ================================= -->
+	<!-- Action bar strings and menu items -->
+	<!-- ================================= -->
+	<string name="actionFeedback"></string>
+	<string name="actionContentSortBy"></string>
+	<string name="actionSwipeRefresh"></string>
+	<string name="actionSearch"></string>
+	<string name="action_delete"></string>
+	<string name="actionDeleteReceipt"></string>
+	<string name="actionTroubleshootMileage"></string>
+	<string name="actionAddMileageRules"></string>
+	<string name="actionDeleteTransaction"></string>
+	<string name="actionEditTransaction"></string>
+	<string name="actionInvoiceSettings"></string>
+
+	<!-- toolbar strings -->
+	<string name="toolbarButtonSignOut"></string>
+	<string name="toolbarButtonCancel"></string>
+	<string name="toolbarButtonDone" tools:ignore="UnusedResources"></string>
+	<string name="toolbarButtonSave"></string>
+	<string name="toolbarButtonAdd"></string>
+	<string name="toolbarButtonExclude"></string>
+	<plurals name="toolbarBulkReviewTitle">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+
+
+	<!-- ============ -->
+	<!-- login screen -->
+	<!-- ============ -->
+	<string name="autLoginUserTransferredErrorMessage"></string>
+
+	<!-- dashboard date range picker -->
+	<string name="dashboardThisYear"></string>
+	<string name="dashboardLastYear"></string>
+	<string name="dashboardThisTaxYear"></string>
+	<string name="dashboardLastTaxYear"></string>
+	<string name="dashboardThreeMonths"></string>
+	<string name="dashboardThisMonth"></string>
+	<string name="dashboardLastMonth"></string>
+
+	<!-- ========================= -->
+	<!-- navigation drawer strings -->
+	<!-- ========================= -->
+	<string name="navigationDrawerFremiumText"></string>
+	<string name="navigationDrawerTrialExpiredText"></string>
+	<string name="navigationDrawerSubscribeButton"></string>
+	<string name="navigationDrawerDefaultSubscribeNow"></string>
+	<string name="navigationDrawerUpgradeTitle"></string>
+	<string name="navigationDrawerUpgradeSubtitle"></string>
+
+	<string name="navigationDrawerLogoContentDescription"></string>
+
+	<!-- Chart legend Strings -->
+	<string name="chartLegendToolTipContentDescription"></string>
+
+	<!-- Status Indicator Layout strings -->
+	<string name="statusIndicatorCTAText"></string>
+
+	<!-- Help & FAQ strings -->
+	<string name="supportScreenTitle"></string>
+
+	<!-- ======================== -->
+	<!-- Bottom Nav Sheet strings -->
+	<!-- ======================== -->
+	<string name="bottomNavFtuNewUserTitle"></string>
+	<string name="bottomNavFtuNewUserSubtitle"></string>
+
+	<string name="bottomNavFtuExistingUserTitle"></string>
+	<string name="bottomNavFtuExistingUserSubtitle"></string>
+
+	<!-- Strings used for the trial banner -->
+	<string name="bottomNavBannerTrialEndsSoon"></string>
+	<plurals name="bottomNavBannerDaysLeft">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+
+	<!-- Used in the bottom nav banner for offering a discount of "Up to 50% off" -->
+	<string name="bottomNavBannerUpTo"></string>
+	<string name="bottomNavBannerPercentage"></string>
+	<string name="bottomNavBannerOff"></string>
+	<string name="bottomNavBannerLimitedTime"></string>
+	<string name="bottomNavBannerSubscribeNow"></string>
+
+	<!-- String rendered in the navigation's My Profile section when we don't have a company name for them -->
+	<string name="bottomNavMyProfileNoName"></string>
+
+	<!-- ========================= -->
+	<!-- My Profile screen strings -->
+	<!-- ========================= -->
+	<string name="profileScreenTitle"></string>
+	<string name="profileIntuitAccountTitle"></string>
+
+	<!-- Example: Signed in as andrew_schrage@intuit.com  (Any email address) -->
+	<string name="profileIntuitAccountSubtitle"></string>
+	<string name="profileSubscriptionTitle"></string>
+	<plurals name="profileSubscriptionSubtitleInTrial">
+		<item quantity="zero"></item>
+		<item quantity="one"></item> <!-- Example: 1 day left in your trial -->
+		<item quantity="other"></item> <!-- Example: 13 days left in your trial -->
+	</plurals>
+	<string name="profileSubscriptionSubtitleSubscribedTo"></string>
+	<string name="profileContactInfoTitle"></string>
+	<string name="profileContactInfoSubtitle"></string>
+	<string name="profileTaxTitle"></string>
+	<string name="profileTaxSubtitle"></string>
+	<string name="profileVehicleTitle"></string>
+	<string name="profileVehicleSubtitle"></string>
+	<string name="profileQBSEVersion"></string>
+
+	<!-- billing plans for the US products. These show in the My profile screen -->
+	<string name="purchaseBillingPlanQbseStandalone"></string>
+	<string name="purchaseBillingPlanTurboTaxBundle"></string>
+	<string name="purchaseBillingPlanTurboLiveTaxBundle"></string>
+
+	<!-- ================ -->
+	<!-- FAB menu strings -->
+	<!-- ================ -->
+	<string name="genericItemAddIncomeManually"></string>
+	<string name="genericItemAddExpenseManually"></string>
+	<string name="genericItemSnapReceipt"></string>
+	<string name="genericItemCreateInvoice"></string>
+	<string name="genericItemCreateMileageRule"></string>
+	<string name="genericItemCreateManualTrip"></string>
+	<string name="fabTransactionsContentDescription"></string>
+	<string name="fabInvoicesContentDescription"></string>
+	<string name="fabMilesContentDescription"></string>
+	<string name="fabCUIContentDescription"></string>
+
+	<!-- ======================= -->
+	<!-- Settings screen strings -->
+	<!-- ======================= -->
+	<string name="settingsScreenTitle"></string>
+	<string name="settings_category_your_account_title"></string>
+	<string name="settings_subscription_title"></string>
+	<string name="settings_account_title"></string>
+	<string name="settings_export_title"></string>
+	<string name="settings_notifications_title"></string>
+	<string name="settings_notifications_summary"></string>
+	<string name="settings_category_about_qbse"></string>
+	<string name="settings_category_legal"></string>
+	<string name="settings_category_more"></string>
+	<string name="settings_category_share"></string>
+	<string name="settings_help_faq_title"></string>
+	<string name="settings_transaction_import_title"></string>
+	<string name="settings_transaction_import_summary"></string>
+	<string name="settings_privacy_policy_title"></string>
+	<string name="settings_tos_title"></string>
+	<string name="settings_rate_the_app_title"></string>
+	<string name="settings_change_work_info_title"></string>
+	<string name="settings_change_work_info_summary"></string>
+	<string name="settings_attributions_title"></string>
+	<string name="settings_signing_out"></string>
+	<string name="settings_refer_friend_title"></string>
+	<string name="settings_category_app_settings"></string>
+	<string name="settings_marketing_opt_in_title"></string>
+	<string name="settings_marketing_opt_in_summary"></string>
+	<string name="settings_accountant_title"></string>
+	<string name="settings_accountant_summary"></string>
+	<string name="settings_mileage_slow_title"></string>
+	<string name="settings_mileage_location_accuracy_title"></string>
+	<string name="settings_track_activity_screen_title"></string>
+	<string name="settings_track_activity_title"></string>
+	<string name="settings_track_activity_summary"></string>
+	<string name="settings_mileage_slow_summary"></string>
+	<string name="settings_mileage_location_accuracy_summary"></string>
+	<string name="settings_mileage_NoLabel"></string>
+	<string name="settings_mileage_YesLabel"></string>
+	<string name="settings_receipt_title"></string>
+	<string name="settings_receipt_summary"></string>
+	<string name="settings_setup_payments_title"></string>
+	<string name="settings_setup_payments_summary"></string>
+	<string name="settings_manage_customers_title"></string>
+	<string name="settings_manage_service_items_title"></string>
+	<string name="fido_settings_title"></string>
+
+	<!-- ========================= -->
+	<!-- invite accountant screen  -->
+	<!-- ========================= -->
+	<string name="accountantActivityTitle"></string>
+	<string name="accountantTVTitle"></string>
+	<string name="accountantDescription"></string>
+	<string name="accountantDescription2"></string>
+	<string name="accountantLoadingMessage"></string>
+	<string name="accountantSendingInviteMessage"></string>
+	<string name="accountantRemovingAccessMessage"></string>
+	<string name="accountantEmailHint"></string>
+	<string name="accountantInvited"></string>
+	<string name="accountantSendInviteButtonText"></string>
+	<string name="accountantReinviteButtonText"></string>
+	<string name="accountantCancelInviteButtonText"></string>
+	<string name="accountantRemoveButton"></string>
+	<string name="accountantHelpDialogTitle"></string>
+	<string name="accountantHelpDialogText"></string>
+	<string name="accountantHelpDialogNote"></string>
+	<string name="accountantNoInviteAllowed"></string>
+	<string name="accountantHelpDialogPositiveAction"></string>
+	<string name="accountantInviteDialogTitle"></string>
+	<string name="accountantInviteDialogMessage"></string>
+	<string name="accountantStatusContentDescription"></string>
+	<string name="accountantHelpContentDescription"></string>
+	<string name="accountantSnackbarValidEmail"></string>
+	<string name="accountantJoinedSnackbarMessage"></string>
+	<string name="accountantJoinedSnackbarAction"></string>
+
+
+	<!-- ========================== -->
+	<!-- import transactions screen -->
+	<!-- ========================== -->
+	<string name="importTransactionsTitle"></string>
+	<string name="importTransactionsTVTitle"></string>
+	<string name="importTransactionsDescription1"></string>
+	<string name="importTransactionsDescription2"></string>
+	<string name="importTransactionsEmailButtonText"></string>
+	<string name="importTransactionsSendingEmail"></string>
+	<!-- example: "Email sent to john_doe@intuit.com"  (shows an email address) -->
+	<string name="importTransactionsEmailSentMessage"></string>
+	<string name="importTransactionsPositiveAction"></string>
+	<string name="importTransactionsContentDescription"></string>
+
+
+	<!-- =============================== -->
+	<!-- marketing opt in screen strings -->
+	<!-- =============================== -->
+	<string name="marketingOptInHeadline"></string>
+	<string name="marketingOptInPositiveAction"></string>
+	<string name="marketingOptInNegativeAction"></string>
+	<string name="marketingOptInProgress"></string>
+	<string name="marketingOptInImageDescription"></string>
+
+	<!-- =============================== -->
+	<!-- transactions screen (card deck) -->
+	<!-- =============================== -->
+	<string name="dateYesterday"></string>
+	<string name="dateToday"></string>
+	<string name="dateTomorrow"></string>
+	<!-- keep these plural strings even if the "one" item is not used -->
+
+	<plurals name="dateDurationPastInDays">
+		<item quantity="one"></item>    <!-- Example: 1 day ago-->
+		<item quantity="other"></item>    <!-- Example: 3 days ago-->
+	</plurals>
+	<!-- keep these plural strings even if the "one" item is not used -->
+
+	<plurals name="dateDurationFutureInDays">
+		<item quantity="one"></item>    <!-- Example: in 1 day -->
+		<item quantity="other"></item>    <!-- Example: in 3 days -->
+	</plurals>
+
+
+	<string name="psd2NotificationTransactionMessage"></string>
+	<string name="psd2NotificationTransactionAction"></string>
+	<string name="cardJobHomePSD2ActionText"></string>
+	<string name="cardJobHomeReceiptForward"></string>
+	<plurals name="cardJobHomeBankOtp">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="cardJobHomeFdpNotificationOAuthTitle"></string>
+	<string name="cardJobHomeFdpNotificationOAuthErrorTitle"></string>
+
+	<!-- ============================= -->
+	<!-- transactions UI helper screen -->
+	<!-- ============================= -->
+	<string name="uiHelperText1"></string>
+	<string name="uiHelperText2"></string>
+	<string name="uiHelperText3"></string>
+	<string name="uiHelperText4"></string>
+	<string name="uiHelperFinalScreenText"></string>
+	<string name="uiHelperButtonText1"></string>
+	<string name="uiHelperButtonGoText"></string>
+	<string name="uiHelperDismissText"></string>
+
+	<string name="uiHelperScreen1Text1"></string>
+	<string name="uiHelperScreen1Text2"></string>
+	<string name="uiHelperScreen1Text3" translatable="false">-84</string>
+	<string name="uiHelperScreen1Text4"></string>
+	<string name="uiHelperScreen2Text1"></string>
+	<string name="uiHelperScreen3Text1"></string>
+	<string name="uiHelperScreen4Text1"></string>
+	<string name="uiHelperScreen4Text2"></string>
+	<string name="uiHelperScreen4Text3" translatable="false">-16</string>
+	<string name="uiHelperScreen4Text4"></string>
+	<string name="uiHelperScreen5Text1"></string>
+
+
+	<!-- ============================= -->
+	<!-- Create Rule Dialog -->
+	<!-- ============================= -->
+	<string name="createRuleDialogTitle"></string>
+	<string name="createRuleDialogBody"></string>
+	<string name="createRuleDialogDismiss"></string>
+	<string name="createRuleDialogMore"></string>
+
+	<!-- =========================== -->
+	<!-- Pending transactions screen -->
+	<!-- =========================== -->
+	<string name="pendingHeaderTitle"></string>  <!-- Eg: Pending (3) -->
+	<string name="pendingScreenTitle"></string>
+	<string name="pendingTxnNote"></string>
+
+
+	<!-- ==================================== -->
+	<!-- Receipt Capture Matched/Added screen -->
+	<!-- ==================================== -->
+	<string name="rcMatchedScreenTitle"></string>
+	<string name="rcMatchedScreenNote"></string>
+
+	<!-- ======================= -->
+	<!-- edit transaction screen -->
+	<!-- ======================= -->
+	<string name="editTransactionNotesHint"></string>
+	<string name="editTransactionNotesFloatingLabel"></string>
+	<string name="editTransactionAppearsAsLabel"></string>
+	<string name="editTransactionDuplicateTransactionLabel"></string>
+	<string name="editTransactionDuplicateTransaction"></string>
+	<string name="editTransactionDuplicateTransactionNoLabel"></string>
+	<string name="editTransactionDuplicateTransactionYesLabel"></string>
+	<string name="editTransactionRadioButtonBusiness"></string>
+	<string name="editTransactionRadioButtonPersonal"></string>
+	<string name="editTransactionRadioButtonSplits"></string>
+	<string name="editTransactionSplitSectionTitle"></string>
+	<string name="editTransactionCreateRule"></string>
+	<string name="editTransactionCreateRuleContentDescription"></string>
+	<string name="editTransactionAddReceipt"></string>
+	<string name="editTransactionEditReceipt"></string>
+	<string name="editTransactionConfirmDeleteAttachment"></string>
+	<string name="editTransactionAttachingReceipt"></string>
+	<string name="editTransactionUploadFailureText"></string>
+	<string name="editTransactionAttachmentDialogViewReceipt"></string>
+	<string name="editTransactionAttachmentDialogTakePhoto"></string>
+	<string name="editTransactionAttachmentDialogPickFile"></string>
+	<string name="editTransactionAttachmentDialogDeleteFile"></string>
+	<string name="editAttachmentFetchFileProgressText"></string>
+	<string name="editTransactionAttachmentContentDescription"></string>
+	<string name="editTransactionGstIncludeLabel"></string>
+	<string name="editTransactionAddAnotherSplit"></string>
+	<string name="editTransactionRulePrefix"></string>
+	<string name="editTransactionRuleGeneric"></string>
+	<!-- 10% GST = $1.2-->
+	<string name="editTransactionGstCalculation"></string>
+	<!-- 10$ HST included-->
+	<string name="editTransactionGstCalculationSingleType"></string>
+	<!-- 10$ GST + 5$ PST included-->
+	<string name="editTransactionGstCalculationDoubleType"></string>
+	<!-- +10$ -->
+	<string name="editTransactionPositiveIncome"></string>
+	<string name="editTransactionExcludedLabel"></string>
+	<!-- Edit Attachment -->
+
+	<string name="editAttachmentUnsupportedTypeMessage"></string>
+
+	<!-- strings for the split line item custom control -->
+
+	<string name="editTransactionSplitLineItemDeleteCategoryContentDescription"></string>
+	<string name="editTransactionSplitLineItemAddLineItemContentDescription"></string>
+	<string name="editTransactionScheduleCContentDescription"></string>
+	<string name="splitLineItemAmountLabel"></string>
+	<string name="splitLineItemCategoryLabel"></string>
+
+	<!-- error message when a split amount is too large -->
+
+	<string name="editTransactionInvalidSplitAmount"></string>
+	<string name="editTransactionInvalidVendorName"></string>
+
+
+	<!-- =================== -->
+	<!-- confirmation dialog -->
+	<!-- =================== -->
+	<string name="leaveScreenConfirmationMessage"></string>
+	<string name="editTransactionLeaveScreenConfirmationWhileUploadingMessage"></string>
+
+
+	<!-- ===================================== -->
+	<!-- edit manual (cash) transaction screen -->
+	<!-- ===================================== -->
+
+	<string name="editCashDateLabel"></string>
+	<string name="editCashScheduleCContentDescription"></string>
+	<string name="editCashAmountLabel"></string>
+	<string name="editCashPayer"></string>
+	<string name="editCashVendor"></string>
+	<string name="editCashDate"></string>
+	<string name="editCashAmount"></string>
+	<string name="editCashWhoPaidYou"></string>
+	<string name="editCashAddIncomeTitle"></string>
+	<string name="editCashAddExpenseTitle"></string>
+	<string name="editCashCategoryLabel"></string>
+	<string name="editCashNoteLabel"></string>
+	<string name="editCashSalesTaxLabel"></string>
+	<string name="editCashSelectYourProvinceHint"></string>
+	<string name="editCashDot" translatable="false">•</string>
+
+	<!-- possible values of the description field when showing on the stage section -->
+
+	<string name="editCashDescriptionBusinessIncome"></string>
+	<string name="editCashDescriptionBusinessSpending"></string>
+	<string name="editCashDescriptionPersonalIncome"></string>
+	<string name="editCashDescriptionPersonalSpending"></string>
+
+	<!-- progress messages when saving the transaction -->
+
+	<string name="editTransactionShowProgressSaveTransaction"></string>
+	<string name="editCashShowProgressAddTransaction"></string>
+	<string name="editCashShowProgressEditTransaction"></string>
+	<string name="editShowProgressDeleteTransaction"></string>
+
+	<!-- confirmation message when deleting a cash transaction -->
+
+	<string name="editCashConfirmDeleteTransaction"></string>
+	<string name="editTxnUploadInProgressTitle"></string>
+	<string name="editTxnUploadInProgressMessage"></string>
+
+	<!-- Add note -->
+
+	<string name="editTransactionNoteTitle"></string>
+	<string name="errorExceedingMaxCharacters"></string>
+
+	<!-- Dashboard screen strings -->
+
+	<string name="dashboardScreenTitle"></string>
+	<string name="dashboardLoadErrorMessage"></string>
+	<string name="dashboardCurrentTaxPeriod"></string> <!-- Example: Q4 2017. Here 'Q' is the U.S. abbreviation of Quarter, the local tax period duration -->
+
+
+	<!-- =================================== -->
+	<!-- Insights Cards in Dashboard Strings -->
+	<!-- =================================== -->
+
+	<!-- TakeHome Module -->
+	<string name="takeHomeTitle"></string>
+	<string name="takeHomeNetProfit"></string>
+	<string name="takeHomeHeroInsightCaption"></string>
+	<string name="takeHomeEstimatedTax"></string>
+
+	<!-- Earnings Module -->
+	<string name="cardEarningsTitle"></string>
+	<string name="cardEarningsBusinessIncome"></string>
+	<string name="cardEarningsBusinessSpending"></string>
+
+	<!-- Miles Module -->
+	<string name="cardMilesTitle"></string> <!-- Here placeholder is either Mileage or Kilometer based on region. Ex : Business Mileage -->
+	<string name="cardMilesTotal"></string>  <!-- Here placeholder is either Mileage or Kilometer based on region. Ex : Mileage Deduction -->
+
+	<!-- Deductions Module -->
+	<string name="cardDeductionsTitle"></string>
+	<string name="cardDeductionsZeroStateText"></string>
+
+	<!-- Taxes Module -->
+	<string name="cardTaxesTitle"></string>
+	<string name="cardTaxesEstimatedTaxDue"></string>
+
+	<!-- Money Module -->
+	<string name="cardMoneyTitle"></string>
+	<string name="cardMoneyZeroStateText"></string>
+	<string name="cardMoneyManage"></string>
+	<string name="cardMoneyBankError"></string>
+	<string name="cardMoneyBankMFAError"></string>
+
+	<!-- ==================================== -->
+	<!-- transactions screen (list, swipable) -->
+	<!-- ==================================== -->
+
+	<string name="txnScreenTitle"></string>
+	<string name="txnListCategorizePersonal"></string>
+	<string name="txnListCreateRule"></string>
+	<string name="txnListCategorizeBusiness"></string>
+	<string name="txnListReviewedTransactionsTabTitle"></string>
+	<string name="txnListUnreviewedTransactionsTabTitle"></string>
+	<string name="txnListUndoCategorizedLabel"></string>    <!-- Example: Marked as Business -->
+	<string name="txnListUndoLabel"></string>
+	<string name="txnListEditLabel"></string>
+	<string name="txnListUndoCategorizedAsPersonal"></string>
+	<string name="txnListUndoCategorizedAsBusiness"></string>
+	<string name="txnFinancialSummary"></string> <!-- Example: 2018 Income $23.11 • Expense $90.22 -->
+	<string name="txnFilterBy"></string>
+	<string name="txnFilter"></string>
+	<string name="txnRuleAppliedContentDescription"></string>
+	<string name="txnAttachmentContentDescription"></string>
+	<string name="txnSplit"></string>
+	<string name="txnSalesTaxContentDescription"></string>
+	<string name="txnExcludedContentDescription"></string>
+	<string name="txnCurrencyPrefixPositive"></string>
+	<string name="txnCurrencyPrefixNegative"></string>
+
+	<!-- sort by dialog strings -->
+
+	<string name="txnListSortByDialogTitle"></string>
+
+	<!-- options in the sort by dialog -->
+
+	<string name="txnListSortOptionSortByUpdatedDate"></string>
+	<string name="txnListSortOptionSortByDate"></string>
+	<string name="txnListSortOptionSortByCategory"></string>
+	<string name="txnListSortOptionSortByVendor"></string>
+	<string name="txnListSortOptionSortByAccount"></string>
+	<string name="txnListSortOptionSortByIncomeExpense"></string>
+	<string name="txnListSortOptionSortByReceiptAttached"></string>
+
+	<!-- txn list sort headers -->
+
+	<string name="txnListSortByCategoryHeaderPersonalTransaction"></string>
+	<string name="txnListSortByCategoryHeaderSplitTransaction"></string>
+	<string name="txnListSortByDateHeaderLastSevenDays"></string>
+	<string name="txnListSortByIncomeHeaderIncome"></string>
+	<string name="txnListSortByIncomeHeaderExpense"></string>
+	<string name="txnListSortByReceiptHeaderReceiptAttached"></string>
+	<string name="txnListSortByReceiptHeaderNoReceipt"></string>
+	<plurals name="txnListRemainingUnreviewedTransactions">
+		<item quantity="zero"></item> <!-- Example: 0 new transaction -->
+		<item quantity="one"></item>    <!-- Example: 1 new transaction -->
+		<item quantity="other"></item>    <!-- Example: 10 new transactions -->
+	</plurals>
+	<plurals name="txnListSearchResults">
+		<item quantity="zero"></item>    <!-- Example: 0 result found -->
+		<item quantity="one"></item>    <!-- Example: 1 result found -->
+		<item quantity="other"></item>    <!-- Example: 10 results found -->
+	</plurals>
+	<string name="txnListSearchEmptyStateTitle"></string>
+	<string name="txnListSearchEmptyStateSubTitle"></string>
+
+
+	<!-- pending transaction layout texts -->
+
+	<string name="pendingTxnArrowContentDescription"></string>
+
+	<string name="txnListGSTAppliedLabel"></string>
+
+	<!-- category label for a personal transaction. Should be "Personal" for both income and expense -->
+
+	<string name="txnListPersonalIncomeCategoryLabel"></string>
+	<string name="txnListPersonalExpenseCategoryLabel"></string>
+	<!-- this one is used for split line items that are personal -->
+
+	<string name="txnListPersonalCategoryLabel"></string>
+	<!-- Category label for excluded transactions -->
+	<string name="txnListExcludedCategoryLabel"></string>
+
+	<string name="categoryIconSuffix"></string>
+	<!-- zero state strings -->
+
+	<string name="txnListZeroStateTransactionMessage1"></string>
+	<string name="txnListZeroStateTransactionMessage2"></string>
+	<string name="txnListZeroStateWithPendingTransactionMessage"></string>
+	<!-- the content description of the sunshine image is the same as the text below it -->
+
+	<string name="txnListSunContentDescription"></string>
+	<!-- the content description of the bank zero state image is the same as the text below it -->
+	<!-- Same content description on the reviewed and unreviewed tab -->
+
+	<!-- messages on the zero state for the reviewed tab -->
+
+	<string name="txnListReviewedZeroStateBankMessage1"></string>
+	<string name="txnListReviewedZeroStateBankMessage2"></string>
+
+	<!-- the loading message displayed while getting the accounts, transactions, categories, etc. -->
+
+	<string name="txnListLoadUser"></string>
+	<string name="txnListLoadAccounts"></string>
+	<string name="txnListLoadTransactions"></string>
+	<string name="txnListLoadCategories"></string>
+	<string name="txnListLoadBankConnections"></string>
+
+	<!-- Unreviewed transaction list strings for error in connecting bank accounts -->
+
+	<string name="txnListUnreviewedInvalidAccountMessage"></string>
+	<string name="bankErrorDismiss"></string>
+	<string name="bankErrorMoreInfo"></string>
+
+
+	<!-- ============== -->
+	<!-- category types -->
+	<!-- ============== -->
+
+	<string name="categoryTypePersonal"></string>
+
+	<!-- the 'name' of the exclude category. Shows on the split line item -->
+
+	<string name="categoryTypeExclude"></string>
+	<!-- the title and subtitle of the exclude category. Shows on the category picker -->
+
+	<string name="categoryExcludeSubtitle"></string>
+
+
+	<!-- ================= -->
+	<!-- taxes (estimated) -->
+	<!-- ================= -->
+
+	<string name="taxScreenTitle"></string>
+	<string name="taxScreenTitleYear"></string>
+	<string name="quarterlyScreenTitle"></string>
+	<string name="estQSectionLabel"></string>    <!-- Example: Q1 (CURRENT) -->
+	<string name="estQuarterPaymentPaid"></string>
+	<string name="estQuarterPaymentDue"></string>    <!-- Example: Due March 13, 2015 -->
+	<string name="action_quarterly_taxes_year"></string>
+	<string name="estQuarterlyTaxDueSummary"></string> <!-- Eg: 2018 Q3 payment $400.00-->
+	<string name="taxFilterBy"></string>
+	<string name="currentYear"></string>
+
+	<!-- ================ -->
+	<!-- taxes (year-end) -->
+	<!-- ================ -->
+
+	<string name="annualScreenTitle"></string>
+	<string name="annualTaxSummary"></string>    <!-- Eg. 2018 Spending 400.00 -->
+	<string name="yetNetProfitLabel"></string>    <!-- Example: 2017 NET PROFIT -->
+	<string name="yetNetLossLabel"></string>    <!-- Example: 2017 NET LOSS -->
+	<string name="yetIncomeLabel"></string>
+	<string name="yetSpendingLabel"></string>
+	<string name="yetDeductionLabel"></string>
+	<string name="yetSpendingByScheduleCLabel"></string>
+	<string name="yetProfitLossTotalBusinessDeductionsLabel"></string>
+	<string name="yetProfitLossTotalBusinessSpendingLabel"></string>
+	<string name="yetChoiceSpending"></string>
+	<string name="yetChoiceDeduction"></string>
+
+	<!--Tax Checklist-->
+	<string name="taxCheckListTitle"></string>
+	<string name="taxCheckListInsightCardTitle"></string>
+	<string name="taxCheckListInsightCardExportCompleteTitle"></string>
+	<string name="taxCheckListInsightCardExportCompleteHeroLabel"></string>
+	<string name="taxCheckListInsightCardHeroLabel"></string>
+	<string name="taxCheckListInsightCardHeroTodayLabel"></string>
+	<plurals name="taxCheckListInsightCardHeroInfoLabel">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="taxCheckListInsightCardHeroInfoTodayLabel"></string>
+	<string name="taxCheckListInsightCardMessage"></string>
+	<string name="taxCheckListBundleLogoDescription"></string>
+	<string name="taxCheckListHeaderTitle"></string>
+	<string name="taxCheckListSubTitle"></string>
+	<string name="taxCheckListMaximizeDeductionsHeader"></string>
+	<string name="taxCheckListFinalItemsHeader"></string>
+	<string name="taxCheckListQuickReviewHeader"></string>
+	<string name="taxCheckListTaxPayerHeader"></string>
+	<string name="taxCheckListReviewedTaxPayerHeader"></string>
+	<string name="taxCheckListVehicleInfoHeader"></string>
+	<string name="taxCheckListReviewedVehicleInfoHeader"></string>
+	<string name="taxCheckListBusinessAssets"></string>
+	<string name="taxCheckListReviewedBusinessAssets"></string>
+	<string name="taxCheckListAddBusinessAssetLabel"></string>
+	<string name="taxCheckListUnaccountedTransactions"></string>
+	<string name="taxCheckListReviewedUnaccountedTransactionsLabel"></string>
+	<string name="taxCheckListUnaccountedTransactionsTitle"></string>
+	<string name="taxCheckListUnaccountedTransactionsLabel"></string>
+	<string name="taxReviewFinalTaxSummaryLabel"></string>
+	<string name="taxCheckListAddBank"></string>
+	<string name="taxCheckListTrips"></string>
+	<string name="taxCheckListReviewedTrips"></string>
+	<string name="taxCheckListTransactions"></string>
+	<string name="taxCheckListReviewedTransactions"></string>
+	<string name="taxCheckListTaxProfileTitle"></string>
+	<string name="taxCheckListVehicleProfileTitle"></string>
+	<string name="taxCheckListBusinessAssetsTransactionListHeader"></string>
+	<string name="taxCheckListExpensesTransactionListHeader"></string>
+	<string name="taxCheckListBusinessAssetHeaderText"></string>
+	<string name="taxCheckListUnAccountedTransactionsHeaderText"></string>
+	<string name="taxCheckListReviewEntertainmentTitle"></string>
+	<string name="taxCheckListMealsEntertainmentTitle"></string>
+	<string name="taxCheckListReviewedMealsEntertainment"></string>
+	<string name="taxCheckListReviewHealthcareTitle"></string>
+	<string name="taxCheckListReviewHealthcareHeaderText"></string>
+	<string name="taxCheckListReviewHealthcareMessageText"></string>
+	<string name="taxCheckListReviewHealthcareCardTitle"></string>
+	<string name="taxCheckListReviewHealthcareCardText"></string>
+
+	<string name="taxCheckListHealthcareReviewedHeaderLabel"></string>
+	<string name="taxCheckListHealthcareReviewedMessageLabel"></string>
+	<string name="taxCheckListHealthcareReviewedTitle"></string>
+	<string name="taxCheckListHealthcareGotItLabel"></string>
+	<string name="taxCheckListEntertainmentHeaderText"></string>
+	<string name="taxCheckListEntertainmentMessageText"></string>
+	<string name="taxCheckListEntertainmentCardText"></string>
+	<string name="taxCheckListEntertainmentCardTitle"></string>
+	<string name="taxExportMileageListSubTitle"></string>
+	<string name="taxExportReviewedMealsEntertainmentHeaderText"></string>
+	<string name="taxExportReviewedMealsEntertainmentMessageText"></string>
+
+	<!-- Eg 2018 Trips -->
+	<string name="taxExportMileageListHeader"></string>
+	<string name="taxExportMileageListTitle"></string>
+	<string name="taxExportTransactionListSubHeader"></string>
+	<!-- Eg 2018 Transactions -->
+	<string name="taxExportTransactionListHeader"></string>
+	<string name="taxExportTransactionListTitle"></string>
+
+	<string name="taxExportConfirmationSubHeader1"></string>
+	<string name="taxExportConfirmationSubHeader2"></string>
+	<string name="taxExportConfirmationSubHeader3"></string>
+	<string name="taxExportConfirmationSubHeader4"></string>
+	<string name="taxExportConfirmationHeader"></string>
+	<string name="taxExportEntertainmentHeader"></string>
+	<string name="taxExportEntertainmentSubHeader1"></string>
+	<string name="taxExportEntertainmentSubHeader2"></string>
+	<string name="taxExportEntertainmentSubHeader3"></string>
+	<string name="taxExportConfirmationGotIt"></string>
+	<string name="taxExportSummaryHeader"></string>
+	<string name="taxExportSendToTurboTaxLabel"></string>
+	<string name="taxExportFileWithTurboTaxLabel"></string>
+	<string name="taxExportSendToAccountantLabel"></string>
+	<string name="taxExportSentToTurboTaxLabel"></string>
+	<string name="taxExportDialogHeader"></string>
+	<string name="taxExportDialogTitle"></string>
+	<string name="taxExportDialogSendInfoLabel"></string>
+	<string name="taxExportDialogGobackLabel"></string>
+	<string name="taxExportSendingToTurboTaxLabel"></string>
+	<string name="taxExportedDialogTitle"></string>
+
+	<!--example: Use your TurboTax sign-in: qsedev+iamtestpass_feb-08-13-20-72@gmail.com. This is where we’ll send your info.-->
+	<string name="taxExportedDialogHeader"></string>
+	<string name="taxExportedDialogDifferentAccountHeader"></string>
+	<string name="taxExportedContinueToTTMobileButton"></string>
+	<string name="taxExportedContinueToTTWebButton"></string>
+	<string name="taxExportSummaryHeadupText"></string>
+	<string name="taxExportSummaryHeadupHeader"></string>
+	<string name="taxExportSummaryTaxableProfitLabel"></string>
+	<string name="taxExportSummaryTotalIncomeLabel"></string>
+	<string name="taxExportSummaryTotalSchdCLabel"></string>
+
+	<string name="taxChecklistQBTTLogoContentDescription"></string>
+
+	<!-- ================== -->
+	<!-- mileage favorite locations -->
+	<!-- ================== -->
+
+	<!-- location details screen -->
+	<string name="locationDetailsAddFavoriteLocationButtonText"></string>
+	<string name="locationDetailsTitle"></string>
+	<string name="locationDetailsNameLabel"></string>
+	<string name="locationDetailsMissingNameLabel"></string>
+	<string name="locationDetailsDeleteFavoriteLocationButtonText"></string>
+	<string name="locationDetailsFavoriteLocationLabel"></string>
+	<string name="locationDetailsNonOptionalAddressLabel"></string>
+
+	<!-- favorite location name screen -->
+	<string name="favoriteLocationsNameExamplesLabel"></string>
+	<string name="favoriteLocationsNameAddNameTitle"></string>
+
+	<!-- address picker name screen -->
+	<string name="addressPickerTitle"></string>
+	<string name="addressPickerAddAddressLabel"></string>
+	<string name="addressPickerAddAddressHint"></string>
+	<string name="addressPickerAddressesLabel"></string>
+	<string name="addressPickerCurrentLocationLabel"></string>
+
+	<!-- favorite location dialogs -->
+	<string name="favoriteLocationsDeleteConfDialogTitle"></string>
+	<string name="favoriteLocationsDeleteConfDialogHint"></string>
+	<string name="favoriteLocationsDeleteConfDialogRemove"></string>
+
+	<string name="favoriteLocationsNameExistsDialogTitle"></string>
+	<string name="favoriteLocationsNameExistsDialogHint"></string>
+
+	<string name="favoriteLocationsAddressExistsDialogTitle"></string>
+	<string name="favoriteLocationsAddressExistsDialogHint"></string>
+
+	<string name="favoriteLocationsEditFavoriteLocationNameDialogTitle"></string>
+	<string name="favoriteLocationsEditFavoriteLocationNameDialogHint"></string>
+
+	<string name="favoriteLocationsEditFavoriteLocationAddressDialogTitle"></string>
+
+	<string name="favoriteLocationsEditAddressForTripDialogOption"></string>
+	<string name="favoriteLocationsEditAddressForFavoriteLocationOption"></string>
+
+	<string name="favoriteLocationsSavedDialogTitle"></string>
+
+	<!-- settings for favorite locations -->
+	<string name="favoriteLocationsSettingsTitle"></string>
+	<string name="favoriteLocationsSettingsDesc"></string>
+	<string name="favoriteLocationsAdapterDelete"></string>
+
+	<!-- generic -->
+	<string name="favoriteLocationsSaveProgressMessage"></string>
+	<string name="favoriteLocationsDeleteProgressMessage"></string>
+	<string name="favoriteLocationsLoadProgressMessage"></string>
+
+	<!-- errors for favorite locations -->
+	<string name="errorCannotGetFavoriteLocation"></string>
+	<string name="errorCannotDeleteFavoriteLocation"></string>
+	<string name="errorCannotSaveFavoriteLocation"></string>
+	<string name="errorCannotUpdateFavoriteLocation"></string>
+
+	<!-- ================== -->
+	<!-- multi select screen -->
+	<!-- ================== -->
+
+	<string name="bulkReviewSortPersonalBtnText"></string>
+	<string name="bulkReviewSortBusinessBtnText"></string>
+
+	<string name="bulkReviewFooterTitleDefault"></string>
+	<plurals name="bulkReviewFooterTitle">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="bulkReviewConfirm"></string>
+	<plurals name="bulkReviewMarkedAsBusinessDialogText">
+		<item quantity="zero"></item>
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<plurals name="bulkReviewMarkedAsPersonalDialogText">
+		<item quantity="zero"></item>
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="bulkReviewDone"></string>
+	<string name="bulkReviewConfirmationTitle"></string>
+	<string name="bulkReviewConfirmBusinessDesc"></string>
+	<string name="bulkReviewConfirmPersonalDesc"></string>
+	<string name="bulkReviewFtuToolTipTitle"></string>
+	<string name="bulkReviewFtuToolTipDescText"></string>
+	<string name="bulkReviewErrorTitle"></string>
+	<plurals name="bulkReviewErrorDescription">
+		<item quantity="zero"></item>
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="bulkReviewErrorDismissBtnText"></string>
+	<!-- ================== -->
+	<!-- mileage log screen -->
+	<!-- ================== -->
+
+	<string name="milesScreenTitle"></string>
+	<string name="milesTripDetails"></string>
+	<string name="milesTripEdit"></string>
+	<string name="milesLoadMessage"></string>
+	<string name="milesEditMileageDateLabel"></string>
+	<string name="milesEditMileageStartAddressNoTimeLabel"></string>
+	<string name="milesEditMileageEndAddressNoTimeLabel"></string>
+	<string name="milesEditMileageMapContentDescription"></string>
+	<string name="milesEditMileageStartPinContentDescription"></string>
+	<string name="milesEditMileageEndPinContentDescription"></string>
+	<string name="milesEditMileageStartFindLocationContentDescription"></string>
+	<string name="milesEditMileageEndFindLocationContentDescription"></string>
+	<string name="milesEditMileageOptionalLocation"></string>
+
+	<string name="milesEditMileageEditStartAddress"></string>
+	<string name="milesEditMileageDeleteStartAddress"></string>
+	<string name="milesEditMileageEditEndAddress"></string>
+	<string name="milesEditMileageDeleteEndAddress"></string>
+	<string name="milesDeductionHeader"></string> <!-- (miles, deduction) for ex: 250.45mi $543.32 -->
+	<string name="milesPotentialDeductionLabel"></string> <!-- Eg. • Potential deductions $4.65-->
+	<string name="milesRulesApplied"></string>
+	<string name="milesHeaderPotentialDeductionLabel"></string>    <!-- Example: 2018 potential deduction -->
+	<string name="milesHeaderReviewedMilesCount"></string>    <!-- Example: 2018 reviewed kilometers -->
+	<string name="milesAutomaticGpsTracking"></string>
+	<string name="milesTrackingON"></string>
+	<string name="milesTrackingOFF"></string>
+
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceMiles" translatable="false">%1$.2f miles</string>    <!-- Example: 10.25 miles -->
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceShortMiles" translatable="false">%1$.2f mi</string>    <!-- Example: 10.25 mi -->
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceKilometers" translatable="false">%1$.2f kilometers</string>    <!-- Example: 10.25 kilometres -->
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceShortKilometers" translatable="false">%1$.2f km</string>    <!-- Example: 10.25 km -->
+
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceMilesNoDecimal" translatable="false">%1$d miles</string>    <!-- Example: 10 miles -->
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceShortMilesNoDecimal" translatable="false">%1$d mi</string>    <!-- Example: 10 mi -->
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceKilometersNoDecimal" translatable="false">%1$d kilometers</string>    <!-- Example: 10 kilometres -->
+	<!-- do not localize. -->
+	<string name="milesFormatDistanceShortKilometersNoDecimal" translatable="false">%1$d km</string>    <!-- Example: 10 km -->
+
+	<!-- do not localize. -->
+	<string name="milesUnitMiles" translatable="false">miles</string>
+	<!-- do not localize. -->
+	<string name="milesUnitShortMiles" translatable="false">mi</string>
+	<!-- do not localize. -->
+	<string name="milesUnitKilometers" translatable="false">kilometers</string>
+	<!-- do not localize. -->
+	<string name="milesUnitShortKilometers" translatable="false">km</string>
+
+
+	<string name="milesNoStartAddressFound"></string>
+	<string name="milesNoEndAddressFound"></string>
+
+	<!-- messages on the zero mileage for the unreviewed tab -->
+
+	<string name="milesListUnReviewedZeroMilesMessage1"></string>
+	<string name="milesListUnReviewedZeroMilesMessage2"></string>
+
+
+	<!-- sort options for the mileage log -->
+
+	<string name="milesListSortOptionSortByMileageLogDate"></string>
+	<string name="milesListSortOptionSortByMileageLogTrip"></string>
+
+	<!--create trip screen-->
+	<string name="createTripTitle"></string>
+	<string name="businessPurposeLabel"></string>
+	<string name="totalMilesLabel"></string>
+	<string name="tripDateLabel"></string>
+	<string name="businessPurposeHintText"></string>
+	<string name="businessPurposeTitleText"></string>
+	<string name="tripStartLocationLabel"></string>
+	<string name="tripEndLocationLabel"></string>
+	<string name="startingPointLabel"></string>
+	<string name="endingPointLabel"></string>
+
+	<!-- edit miles screen -->
+
+	<string name="milesEditDeductionHeader"></string>
+	<!-- Example: Potential deduction $45.86 -->
+	<string name="milesEditPotentialDeduction"></string>
+
+	<string name="milesEditDateLabel"></string>
+	<string name="milesEditTotalMilesLabel"></string>    <!-- Example: Total miles/ Total kilometres -->
+	<string name="milesEditDistance"></string>
+
+	<string name="milesEditBusinessPurposeLabel"></string>
+	<string name="milesDistanceLabel"></string>
+	<string name="milesEditStartLocationLabel"></string>
+	<string name="milesEditEndLocationLabel"></string>
+
+	<string name="milesFrequentBusinessPurposeLabel"></string>
+	<string name="milesBusinessPurposeHint"></string>
+
+	<string name="milesVehicleLabel"></string>
+	<string name="milesVehicleHint"></string>
+
+	<string name="milesEditDelete"></string>
+	<string name="milesEditTitle"></string>
+	<string name="milesEditTaxDeduction"></string>    <!-- Example: Tax deduction: $1,345.67 -->
+	<string name="milesListTaxDeduction"></string>    <!-- Example: $1,345.67 -->
+
+	<string name="milesEditShowProgressAddTrip"></string>
+	<string name="milesEditShowProgressUpdateTrip"></string>
+	<string name="milesEditShowProgressDeleteTrip"></string>
+
+	<string name="milesEditConfirmDeleteTrip"></string>
+
+	<string name="milesInProcessTitle"></string>
+	<string name="milesInProcessMessage"></string>
+	<string name="milesInProcessOK"></string>
+
+	<string name="milesZeroTripLabel"></string>    <!-- Example: No trips recorded for 2016-2017 -->
+
+	<string name="mileage_trip_search_hint"></string>
+
+
+	<string-array name="milesBusinessPurposeExamples">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+	<string-array name="milesFavoriteLocationNameExamples">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+	<string-array name="trackedMilesDeleteReason">
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+	<string name="milesUnreviewedStartingMapContentDescription"></string>
+	<string name="milesUnreviewedEndingMapContentDescription"></string>
+	<string name="milesTripTypeManual"></string>
+	<string name="milesTripTypeAutomatic"></string>
+
+	<string name="milesLocationPermissionTitle"></string>
+	<string name="milesLocationPermissionMessage"></string>
+	<string name="milesLocationPermissionPositiveAction"></string>
+	<string name="milesLocationPermissionNegativeAction"></string>
+
+
+	<string name="vehicleTitle"></string>
+
+	<string name="manageVehicleActivityTitle"></string>
+
+	<string name="editVehicleActivityTitle"></string>
+	<string name="addVehicleActivityTitle"></string>
+
+	<string name="defaultVehicle"></string>
+	<string name="vehicleNickname"></string>
+	<string name="vehicleTypeLabel"></string>
+
+	<string name="carorvan"></string>
+	<string name="motorbike"></string>
+
+	<string name="showProgressAddVehicle"></string>
+	<string name="showProgressUpdateVehicle"></string>
+
+	<string name="chooseVehicle"></string>
+	<string name="chooseVehicleMessage"></string>    <!-- Example: Your default vehicle is now FIAT 500E-->
+
+	<string name="noVehicle"></string>
+	<string name="noVehicleSubText"></string>
+
+	<string name="maxVehicleError"></string>
+
+	<string name="vehicleLimitTitle"></string>    <!-- Example: You reached the 5000 miles threshold -->
+	<string name="vehicleLimitMessageUK"></string>    <!-- Example: Your business mileage rate for cars or vans will be 2.54 for the rest of the tax year. -->
+	<plurals name="vehicleLimitMessageAU">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+
+	<string name="selectVehicleTitleText"></string>
+	<string name="addVehicleBtnText"></string>
+	<string name="vehicleListHeader"></string>
+	<string name="vehicleBusinessMiles"></string>
+	<string name="vehicleNicknameLabel"></string>
+	<string name="vehicleNicknameHint"></string>
+	<string name="vehicleOdometerReadingsLabel"></string>
+	<string name="vehicleMileageDeductions"></string>
+	<string name="vehicleBusinessMileagePercent"></string>
+	<string name="vehicleOdometerStartYearLabel"></string>
+	<string name="vehicleOdometerStartYearHint"></string>
+	<string name="vehicleOdometerEndYearLabel"></string>
+	<string name="vehicleOdometerEndYearHint"></string>
+
+	<!-- Mileage Rules Screen -->
+	<string name="tripRuleLabelText"></string>
+	<string name="tripRuleFrom"></string>
+	<string name="tripRuleTo"></string>
+	<string name="tripRuleLocationHint"></string>
+	<string name="tripRuleRadioGroupLabelText"></string>
+	<string name="tripRuleMessageLabelText"></string>
+	<string name="tripRuleBusinessPurposeHintText"></string>
+	<string name="tripRuleVehicleDropDownLabelText"></string>
+	<string name="tripRuleApplyToPastLabelText"></string>
+
+	<!-- Always mark trips from <b>2040, Main Street, Palo Alto</b> to <b>500, Main Street, Palo Alto</b> as <b>Business - Meeting Client</b> -->
+	<string name="tripRuleFormattedTextForBusiness"></string>
+
+	<!-- Always mark trips from <b>2040, Main Street, Palo Alto</b> to <b>500, Main Street, Palo Alto</b> as <b>Personal</b> -->
+	<string name="tripRuleFormattedTextForPersonal"></string>
+
+	<string name="saveTripRuleDeleteDialogMessage"></string>
+
+	<!-- Saving your rule...-->
+	<string name="milesEditShowProgressAddTripRule"></string>
+	<!-- Updating your mileage rule...-->
+	<string name="milesEditShowProgressUpdateTripRule"></string>
+	<!--Deleting your mileage rule...-->
+	<string name="milesEditShowProgressDeleteTripRule"></string>
+
+	<!-- Auto tracking screen for mileage -->
+	<string name="autoTrackingScreenTitle"></string>
+	<string name="autoTrackingHeadline"></string>
+	<string name="autoTrackingDescription"></string>
+	<string name="autoTrackingToggleText"></string>
+
+	<!-- ========================== -->
+	<!-- delete confirmation dialog -->
+	<!-- ========================== -->
+
+	<string name="deleteConfDialogTitle"></string>
+	<string name="deleteConfDialogYes"></string>
+	<string name="deleteConfDialogCancel"></string>
+
+
+	<!-- ======================= -->
+	<!-- Global Dialog constants -->
+	<!-- ======================= -->
+
+	<string name="globalDialogConfirmationEdit"></string>
+	<string name="globalDialogConfirmationYes"></string>
+	<string name="globalDialogConfirmationNo"></string>
+	<string name="globalDialogConfirmationOk"></string>
+
+
+	<!-- Global commonly used strings -->
+
+	<string name="globalCommonSubmit"></string>
+	<string name="businessLabel"></string>
+	<string name="personalLabel"></string>
+
+
+	<!-- ================ -->
+	<!-- edit text dialog -->
+	<!-- ================ -->
+
+	<string name="editTextDialogPositiveButton"></string>
+	<string name="editTextDialogNegativeButton"></string>
+
+
+	<!-- ======================= -->
+	<!-- the manage banks screen -->
+	<!-- ======================= -->
+
+	<string name="mngBanksScreenTitle"></string>
+	<string name="mngBanksThisAccountHidden"></string>
+	<string name="mngBanksThisAccountClosed"></string>
+	<string name="mngBanksLastUpdated"></string>    <!-- Example: Last updated: 54mn ago -->
+	<string name="mngBanksLastStoppedSyncing"></string>    <!-- Example: You stopped syncing this bank 5/20/2017 -->
+	<string name="mngBanksMenuBankContactInfo"></string>
+	<string name="mngBanksReconnect"></string>
+	<string name="mngBanksMenuBankDeleteBank"></string>
+	<string name="mngBanksErrorAction1"></string>
+	<string name="mngBanksErrorAction2"></string>
+	<string name="mngBanksConfirDeleteFIMessage"></string>
+	<string name="mngBanksConfirDeleteFITitle"></string>
+	<string name="mngBanksConfirDeleteNegativeButton" tools:ignore="ButtonCase"></string>
+	<string name="mngBanksConfirDeletePositiveButton"></string>
+	<string name="mngBanksUnenrollCaf"></string>
+	<string name="mngBanksDismissCaf"></string>
+	<string name="mngBanksDeletingBankWaitMessage"></string>    <!-- Example: Deleting Chase bank -->
+	<string name="mngBanksStopSyncingBankWaitMessage"></string>
+	<string name="mngBanksStopSyncingMessage"></string>
+	<string name="mngBanksStopSyncingTitle"></string>
+	<string name="mngBanksStopSyncingPositiveButton"></string>
+	<string name="mngBanksStopSyncingNegativeButton"></string>
+	<string name="mngBanksStopSyncingContentMessage"></string>
+	<string name="mngBanksResumeSyncingTitle"></string>
+	<string name="mngBanksResumeSyncingPositiveButton"></string>
+	<string name="mngBanksResumeSyncingNegativeButton"></string>
+	<string name="mngBanksResumeSyncingBankWaitMessage"></string>
+	<string name="mngBanksResumeSyncingMessage"></string>
+	<string name="mngBanksLoadingAccountsMessage"></string>
+	<string name="mngBanksContactInfoDialogTitle"></string>
+	<string name="mngBanksZeroStateLabel1"></string>
+	<string name="mngBanksZeroStateLabel2"></string>
+	<string name="mngBanksValidMFAInput"></string>
+	<string name="verticalEllipsis" translatable="false">&#8942;</string>
+	<string name="mngBanksDiscoverAccountTitle"></string>
+	<string name="mngBanksDiscoverAccountAction"></string>
+
+	<string name="bankErrorIconContentDescription"></string>
+	<string name="bankErrorRefresh"></string>
+	<string name="bankErrorConnect"></string>
+	<string name="syncForMoreDetails"></string>
+	<string name="yourBankAdditionalInfo"></string>
+
+	<string name="bankOutageCurrentNotification"></string>
+	<string name="bankOutageOngoingNotification"></string>
+	<string name="bankOutageResolvedNotification"></string>
+
+	<!-- ========================= -->
+	<!-- the account detail screen -->
+	<!-- ========================= -->
+
+	<string name="acctDetailBalanceLabel"></string>
+	<string name="acctDetailHideAccountLabel"></string>
+	<string name="acctDetailShowProgressUpdateFiAccount"></string>
+	<string name="acctDetailEditTextDialogTitle"></string>
+
+
+	<!-- =========================== -->
+	<!-- the bank credentials screen -->
+	<!-- =========================== -->
+	<string name="bankCredScreenTitle"></string>
+	<string name="bankCredLoadingFIMessage"></string>
+	<string name="bankCredSubmitCredentials"></string>
+	<string name="bankCredErrorFieldNotValid"></string>
+	<string name="bankCredConnectingToBank"></string>
+	<string name="bankCredBankSuccessfullyAddedTitle"></string>
+	<string name="bankCredBankSuccessfullyAddedLaterButton"></string>
+	<string name="bankCredBankSuccessfullyAddedOkButton"></string>
+	<string name="bankCredBankSuccessfullyAddedMessage"></string>
+	<string name="bankCredBankSuccessfullyAddedMessageTransactionsDownloading"></string>
+	<string name="bankCredBankErrorOkButton"></string>
+	<string name="bankCredBankLevelEncryptionIsSafe"></string>
+	<string name="bankCredentialLoginTips"></string>
+
+	<!-- PayPal Auth screen -->
+
+	<string name="paypalAuthConnectingToPaypal"></string>
+	<string name="paypalAuthScreenTitle"></string>
+
+
+	<!-- =================== -->
+	<!-- the bank mfa screen -->
+	<!-- =================== -->
+	<string name="bankMfaAlert"></string>
+	<string name="bankMfaFieldNotValidError"></string>
+
+
+	<!-- ====================== -->
+	<!-- the tax profile screen -->
+	<!-- ====================== -->
+	<string name="taxProfileScreenTitle"></string>
+	<string name="taxProfileBasicInfo"></string>
+	<string name="taxProfileMaritalStatus"></string>
+	<string name="taxProfileSingle"></string>
+	<string name="taxProfileMarried"></string>
+	<string name="taxProfileWidow"></string>
+	<string-array name="taxProfileMaritalStatusesUS">
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+	<string name="taxProfileHeadOfHousehold"></string>
+	<string name="taxProfileFilingJointly"></string>
+	<string name="taxProfileDependents"></string>
+	<string name="taxProfileExemption"></string>
+	<string name="taxProfileYourInfo"></string>
+	<string name="taxProfileW2Income"></string>
+	<string name="taxProfileWithholding"></string>
+	<string name="taxProfileEstimateForMe"></string>
+	<string name="taxProfileUseMyEstimate"></string>
+	<string name="taxProfileEstimate"></string>
+	<string-array name="taxProfileWithholdingOptions">
+		<item></item>
+		<item></item>
+	</string-array>
+	<string name="taxProfileAmount"></string>
+	<string name="taxProfileSpouse"></string>
+	<string name="taxProfileSpouseFirstName"></string>
+	<string name="taxProfileSpouseLastName"></string>
+	<string name="taxProfileDeduction"></string>
+	<string name="taxProfileStandard"></string>
+	<string name="taxProfileItemized"></string>
+	<string-array name="taxProfileDeductionOptions">
+		<item></item>
+		<item></item>
+	</string-array>
+	<string name="taxProfileDeductionHint"></string>
+	<string name="taxProfileLoading"></string>
+	<!-- size of home office in sq ft. example: "800 sq ft" -->
+	<string name="taxProfileHomeOfficeSizeLabel"></string>
+	<string name="taxProfileHomeOfficeSizeSmall"></string>
+	<string name="taxProfileHomeOfficeSizeLarge"></string>
+	<string name="taxProfileHomeOfficeSizeLivingRoom"></string>
+	<string name="taxProfileHomeOfficeSelectDialogTitle"></string>
+
+	<!-- =================================== -->
+	<!-- strings used by the DateUtils class -->
+	<!-- =================================== -->
+	<string name="stringAgo"></string>
+	<string name="stringNow"></string>
+	<string name="stringSecondsUnit"></string>
+	<string name="stringMinutesUnit"></string>
+	<string name="stringHoursUnit"></string>
+	<plurals name="stringDaysUnit">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<plurals name="stringMonthsUnit">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<plurals name="stringYearsUnit">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+
+
+	<!-- ================ -->
+	<!-- New FTU cards v3 -->
+	<!-- ================ -->
+	<string name="ftuCardImageDescription"></string>
+
+	<!-- Dashboard -->
+	<string name="ftuCardApphomeTxnLabelTitle"></string>
+	<string name="ftuCardApphomeTxnLabelCTA"></string>
+
+	<!-- Transactions -->
+
+	<string name="transactionUnReviewedEmptyStateTitle"></string>
+	<string name="transactionUnReviewedEmptyStateSubTitle"></string>
+	<string name="transactionUnReviewedEmptyStateFTUCardDismissedTitle"></string>
+	<string name="transactionUnReviewedEmptyStateFTUCardDismissedSubTitle"></string>
+	<string name="transactionUnReviewedBankConnectedEmptyStateTitle"></string>
+	<string name="transactionUnReviewedBankConnectEmptyStateSubTitle"></string>
+	<string name="transactionReviewedEmptyStateTitleNoBank"></string>
+	<string name="transactionReviewedEmptyStateSubTitleNoBank"></string>
+	<string name="transactionReviewedEmptyStateTitle"></string>
+	<string name="transactionReviewedEmptyStateSubTitle"></string>
+
+	<!-- Taxes -->
+
+	<string name="ftuCardTaxCtaMessage"></string>
+	<string name="ftuCardTaxTitle"></string>
+	<string name="ftuChecklistCardTaxTitle"></string>
+	<string name="ftuChecklistCardTaxMsg"></string>
+
+
+	<!-- Invoice Logo -->
+
+	<string name="ftuCardAddInvoiceLogoButtonText"></string>
+	<string name="ftuCardAddInvoiceLogoUploading"></string>
+	<string name="ftuCardAddInvoiceTitle"></string>
+
+	<!-- ============ -->
+	<!-- FTU carousel -->
+	<!-- ============ -->
+
+	<string name="ftuText1"></string>
+	<string name="ftuText2"></string>
+	<string name="ftuText3"></string>
+	<string name="ftuText4"></string>
+	<string name="ftuText4TurboTax"></string>
+	<string name="ftuTextInvoices"></string>
+	<string name="ftuButtonTextSignIn"></string>
+	<string name="ftuButtonTextCreateAccount"></string>
+	<string name="ftuCarouselContentDescription"></string>
+
+	<!-- ============================= -->
+	<!-- floating action button labels -->
+	<!-- ============================= -->
+	<string name="fabLabelAddIncomeTransaction"></string>
+	<string name="fabLabelAddSpendingTransaction"></string>
+	<string name="fabLabelAddBank"></string>
+	<string name="fabLabelAddReceipt"></string>
+
+
+	<!-- =================== -->
+	<!-- bank search screens -->
+	<!-- =================== -->
+	<string name="add_bank_screen_title"></string>
+	<string name="add_bank_search_hint"></string>
+	<string name="add_bank_did_you_mean"></string>
+	<string name="add_bank_not_found"></string>
+	<string name="add_bank_suggest_dialog_title"></string>
+	<string name="add_bank_suggest_submit"></string>
+	<string name="add_bank_suggest_cancel"></string>
+	<string name="add_bank_notify_us"></string>
+	<string name="bankSearchShowMore"></string>
+	<string name="bankSearchProgressMessage"></string>
+
+	<!-- example: "your suggestion of Wells Fargo has been successfully recorded" -->
+
+	<string name="bankSearchSuggestedBankAdded"></string>
+
+	<string name="add_bank_suggest_bank_name_hint"></string>
+	<string name="add_bank_suggest_bank_website_hint"></string>
+	<string name="add_bank_suggest_email_hint"></string>
+
+
+	<!-- ============= -->
+	<!-- notifications -->
+	<!-- ============= -->
+	<string name="notificationTitleBuyNow"></string>
+	<string name="notificationChannelDefaultQBSEName"></string>
+	<string name="notificationChannelDefaultQBSEDescription"></string>
+	<string name="notificationChannelForegroundServiceName"></string>
+	<string name="notificationChannelForegroundServiceDescription"></string>
+	<string name="notificationChannelMarketingName"></string>
+	<string name="notificationChannelMarketingDescription"></string>
+
+	<string name="purchaseSubStatusTrialExpired"></string>
+	<string name="purchaseSubStatusSubsCancelled"></string>
+	<string name="purchaseSubsStatusText"></string>
+
+	<string name="purchaseInitInAppBilling"></string>
+	<string name="purchaseRefreshingUser"></string>
+	<string name="purchaseLoadPurchaseProgressText"></string>
+	<string name="purchaseLoadInventoryProgressText"></string>
+	<string name="purchaseVerifyingPurchaseText"></string>
+	<string name="purchaseLoadingDetailScreen"></string>
+	<string name="purchaseMakingPurchase"></string>
+
+	<string name="purchaseSuccessfulPurchaseTitle"></string>
+	<string name="purchaseSuccessfulPurchaseMessage"></string>
+
+	<string name="purchaseSuccessfulSubsChangeTitle"></string>
+	<string name="purchaseSuccessfulSubsChangeMessage"></string>
+
+	<string name="purchaseErrorMessageIabNotInitialized"></string>
+	<string name="purchaseErrorMessageSubPurchasedForAnotherQBSEUser"></string>
+	<string name="purchaseErrorMessageSubPurchasedForAnotherGoogleAccount"></string>
+	<string name="purchaseSigningOut"></string>
+	<string name="purchaseConfirmDowngradeMessage"></string>
+	<string name="purchaseConfirmDowngradePositiveActionText"></string>
+	<string name="purchaseConfirmDowngradeNegativeActionText"></string>
+
+	<string name="purchaseMessageWebTrialerTitle"></string>
+	<string name="purchaseMessageWebTrialer"></string>
+	<string name="purchaseCancelSubscriptionButton"></string>
+	<string name="purchaseCloseOfferScreenIconDescription"></string>
+
+	<!-- subscription statuses -->
+
+	<string name="purchaseSubStatusValueNone"></string>
+	<string name="purchaseSubStatusValueTrial"></string>
+	<string name="purchaseSubStatusValueSubscribed"></string>
+	<string name="purchaseSubStatusValueSuspended"></string>
+	<string name="purchaseSubStatusValueCancelled"></string>
+	<string name="purchaseSubStatusValueCancelledPending"></string>
+	<string name="purchaseSubStatusValueTrialExpired"></string>
+	<string name="purchaseSubStatusValueProvisioned"></string>
+	<string name="purchaseSubStatusValueTransferredOut"></string>
+	<string name="purchaseSubStatusValueFreemium"></string>
+
+	<string name="manageSubscriptionTitle"></string>
+
+
+	<!-- ================================= -->
+	<!-- purchase screen second generation -->
+	<!-- ================================= -->
+	<string name="numDayLeftToday"></string>
+	<plurals name="numDaysLeft">
+		<item quantity="one"></item>
+		<item quantity="zero"></item>
+		<item quantity="other"></item> <!-- example: "in 3 days" -->
+	</plurals>
+
+	<string name="purchaseSeparatorOr"></string>
+	<string name="purchaseErrorMessageTitle"></string>
+	<string name="purchaseErrorMessageSubtitleLoadingPurchases"></string>
+	<string name="purchaseErrorMessageSubtitleVerifyingPurchases"></string>
+	<!-- use the same default content description for the logo on the product card on line-up screen and the logo for the product detail on the detail screen -->
+
+	<string name="purchaseDefaultContentDescriptionForProductLogo"></string>
+	<string name="purchaseDefaultContentDescriptionForFeatureLogo"></string>
+	<string name="purchaseOffText"></string>
+	<string name="purchasePercentage"></string>
+	<string name="purchasePricingTermsConditionScreenTitle"></string>
+
+
+	<!-- ==================== -->
+	<!-- special offer dialog -->
+	<!-- ==================== -->
+	<string name="purchaseOfferFireworksContentDescription"></string>
+	<string name="purchaseSeeMyDiscountButtonText"></string>
+	<string name="purchaseWaitForFullPriceButtonText"></string>
+
+	<!-- =============================================== -->
+	<!-- Overriding the strings for Android-Rate library -->
+	<!-- =============================================== -->
+	<string name="milesTestNotificationTitle"></string>
+	<string name="milesTestNotificationMessage"></string>
+	<string name="enableGpsForMileageMessage"></string>
+	<string name="enableGpsForMileageTitle"></string>
+	<string name="enableGpsForMileageButtonTitle"></string>
+
+	<string name="mileageGpsOffNotificationMessage"></string>
+	<string name="mileageGpsOffNotificationTitle"></string>
+	<string name="mileageDeleteTripReasonTitle"></string>
+	<string name="mileageDeleteTripReasonMessage"></string>
+	<string name="mileageTrackingOffDuringLoginMessage"></string>
+	<string name="mileageAutoTrackingOffNotificationMessage"></string>
+
+
+	<!-- ======================== -->
+	<!-- Strings for Manage Rules -->
+	<!-- ======================== -->
+	<string name="manageRulesScreenTitle"></string>
+	<string name="createRuleScreenTitle"></string>
+	<string name="editRuleScreenTitle"></string>
+	<string name="createNewRuleCTALabel"></string>
+
+	<!-- ======================== -->
+	<!-- Strings for Mileage Rules -->
+	<!-- ======================== -->
+	<string name="mileageRulesScreenTitle"></string>
+	<string name="mileageRulesListZeroStateTitle"></string>
+	<string name="mileageRulesListZeroStateMessage"></string>
+
+	<!-- loading message -->
+
+	<string name="rulesListLoadRules"></string>
+
+	<!-- zero state strings -->
+
+	<string name="manageRulesZeroStateTitle"></string>
+	<string name="manageRulesZeroStateMessage"></string>
+
+	<!-- rule list item -->
+	<!-- example: "Mark all KFC transactions as Personal" (i.e., show the vendor's name) -->
+	<string name="manageRulesListItemPersonal"></string>
+
+	<!-- example: "Mark all KFC transactions as Meal and Entertainment" (i.e., show vendor's name and category of the rule) -->
+	<string name="manageRulesListItemBusiness"></string>
+
+	<!-- example: "Split all KFC transactions as" (i.e., show vendor's name) -->
+	<string name="manageRulesListItemSplitDescription"></string>
+
+	<!-- example: "Rent and Lease (25%)" (i.e., for a split rule, show the category and its corresponding %-age amount) -->
+	<string name="manageRulesListItemSplitPortion"></string>
+	<string name="manageRulesListItemSplitSeparator"></string>
+
+	<!-- Mileage rules list item format -->
+	<!-- example: Mark all trips from 'Address A' to 'Address B' as Business - Meeting with client -->
+	<string name="mileageRulesListItemFromToAsBusiness"></string>
+	<!-- example: Mark all trips from 'Address A' to 'Address B' as Personal -->
+	<string name="mileageRulesListItemFromToAsPersonal"></string>
+
+	<string name="saveMileageRuleDeleteDialogMessage"></string>
+	<string name="ftuFirstMileageRuleCreatedDialogTitle"></string>
+	<string name="ftuFirstMileageRuleCreatedDialogMessage"></string>
+	<string name="ftuFirstMileageRuleCreatedDialogPositiveText"></string>
+
+	<!-- ======================= -->
+	<!-- create/edit rule screen -->
+	<!-- ======================= -->
+	<string name="saveRuleErrorMessage"></string>
+	<string name="saveRuleProgressMessage"></string>
+	<string name="saveRuleLoadingMessage"></string>
+	<string name="saveRuleMatchesDescription"></string>
+	<string name="saveRuleDescriptionLabel"></string>
+	<string name="saveRuleDescriptionHint"></string>
+	<string name="saveRuleMatchExactly"></string>
+	<string name="saveRuleHelpDialogTitle"></string>
+	<!-- Only apply to matches from Credit Card Account -->
+	<string name="saveRuleMatchToAccount"></string>
+	<string name="saveRuleAccountLabel"></string>
+	<string name="saveRuleAccountText"></string>
+	<string name="saveRuleHelpDialogMessage"></string>
+	<string name="saveRuleHelpDialogPositive"></string>
+	<string name="saveRuleMarkAs"></string>
+	<string name="rulesApplyInfo"></string>
+	<string name="saveRuleWithCategory"></string>
+	<string name="saveRuleSplitCategories"></string>
+	<string name="saveRuleInvalidSplitPercentage"></string>
+	<string name="saveRuleAdvanced"></string>
+	<string name="saveRuleHideAdvanced"></string>
+	<string name="saveRuleApplyTo"></string>
+	<string name="saveRuleSelectAccountTitle"></string>
+	<string name="saveRuleAnyAccountDefault"></string>
+
+	<!-- Confirm rule screen -->
+	<string name="confirmRuleCTAButtonText"></string>
+	<string name="confirmRuleRegularDescriptionFormat"></string>
+	<string name="confirmRuleSplitDescriptionFormat"></string>
+	<string name="confirmRuleRegularBusinessDescriptionFormat"></string>
+	<string name="confirmRuleSplitStringPersonalFormat"></string>
+	<string name="confirmRuleSplitStringBusinessFormat"></string>
+	<string name="confirmRuleSplitLastSplitConjunction"></string>
+	<string name="confirmRuleDescriptionQuestionMark"></string>
+
+	<!-- example: "Current account - Wells Fargo" (i.e., the name of the account and the name of the financial institution) -->
+	<string name="saveRuleAccountName"></string>
+	<string name="saveRuleSaveDialogTitle"></string>
+	<string name="saveRuleSaveDialogMessage"></string>
+	<string name="saveRuleSaveDialogPositive"></string>
+	<string name="saveRuleSaveDialogNegative"></string>
+	<string name="saveRuleDeleteDialogTitle"></string>
+	<string name="saveRuleDeleteDialogMessage"></string>
+	<string name="saveRuleDeleteDialogPositive"></string>
+	<string name="saveRuleDeleteDialogNegative"></string>
+	<string name="saveRuleHelpContentDescription"></string>
+	<string name="saveRuleDelete"></string>
+	<string name="saveRuleDuplicateRuleErrorMessage"></string>
+
+
+	<!-- ======================= -->
+	<!-- Strings for Data Export -->
+	<!-- ======================= -->
+
+	<string name="dataExportScreenTitle"></string>
+	<string name="dataExportTransactionTitle"></string>
+	<string name="dataExportTransactionDesc"></string>
+	<string name="dataExportMileageLogTitle"></string>
+	<string name="dataExportMileageLogDesc"></string>
+	<string name="dataExportPlTitle"></string>
+	<string name="dataExportPlDesc"></string>
+	<string name="dataExportTaxSummaryTitle"></string>
+	<string name="dataExportTaxSummaryDescUS"></string>
+	<string name="dataExportTaxSummaryDescUK"></string>
+	<string name="dataExportTaxSummaryDescSG"></string>
+	<string name="dataExportTaxSummaryDescAU"></string>
+	<string name="dataExportTaxSummaryDescCA"></string>
+	<string name="dataExportTaxDetailsTitle"></string>
+	<string name="dataExportReportsTaxDetailUK"></string>
+	<string name="dataExportReportsTaxDetailCA"></string>
+	<string name="dataExportReportsTaxDetailAU"></string>
+	<string name="dataExportTaxDetailsSummary"></string>
+	<string name="dataExportReceiptsTitle"></string>
+	<string name="dataExportReceiptsDesc"></string>
+	<string name="dataExportEmailLabel"></string>
+
+	<string name="dataExportLastYear"></string>
+	<string name="dataExportThisMonth"></string>
+	<string name="dataExportLastMonth"></string>
+	<string name="dataExportPast3Month"></string>
+	<string name="dataExportCustomDate"></string>
+
+	<string name="dataExportTimePeriodTitle"></string>
+	<string name="exportEmailSent"></string>
+	<string name="exportInvalidEmail"></string>
+	<string name="exportEmailConfirmDialogMessage"></string>
+	<string name="exportSendingEmail"></string>
+	<string name="exportEmailSendTo"></string>
+	<string name="exportGetEmailFromContactFailedMessage"></string>
+	<string name="exportStartDateText"></string>
+	<string name="exportsEndDateText"></string>
+	<string name="exportEndDateWrongMessage"></string>
+	<string name="bank_logo_content_description"></string>
+	<string name="captcha_image_content_description"></string>
+	<string name="mfa_answer_content_description"></string>
+	<string name="error_icon_content_description"></string>
+	<string name="attachment_icon_content_description"></string>
+	<string name="split_amount_content_description"></string>
+	<string name="learnMoreHomeOffice"></string>
+	<string name="homeOfficeDeduction"></string>
+	<string name="homeOffice"></string>
+	<string name="estimatedHomeSize"></string>
+	<string name="percentageToBusiness"></string>
+
+
+	<!-- Exports strings -->
+
+	<string name="dataExportTransactionHeadline"></string>
+	<string name="dataExportTransactionDurationText"></string>
+	<string name="dataExportTransactionTypeText"></string>
+
+	<string name="dataExportMileageHeadline"></string>
+	<string name="dataExportMileageDurationText"></string>
+	<string name="dataExportMileageTypeText"></string>
+
+	<string name="dataExportPLDurationText"></string>
+
+	<string name="dataExportPLHeadline"></string>
+	<string name="dataExportTaxDurationText"></string>
+
+	<string name="dataExportTaxHeadline"></string>
+	<string name="dataExportReceiptsDurationText"></string>
+
+
+	<!-- ======================================= -->
+	<!-- strings used by the taxprofile uk class -->
+	<!-- ======================================= -->
+
+	<string-array name="taxProfileMaritalStatusesUK">
+		<item></item>
+		<item></item>
+	</string-array>
+	<string-array name="taxProfileTransferAllowance">
+		<item></item>
+		<item></item>
+	</string-array>
+
+	<string name="taxProfileUkTransferAllowanceLabel"></string>
+	<string name="taxProfileUkTransferAllowanceTypeLabel"></string>
+	<string name="taxProfileUkTransferAllowanceOptionSent"></string>
+	<string name="taxProfileUkTransferAllowanceOptionReceive"></string>
+	<string name="taxProfileUkTransferAllowanceOptionNo"></string>
+	<string name="taxProfileUkTransferAllowanceOptionNoValue"></string>
+	<string name="taxProfileUkTransferAllowanceOptionSentValue"></string>
+
+	<string name="taxProfileUkTransferAllowanceAmount"></string>
+	<string name="taxProfileUkPersonalAllowanceAmount"></string>
+	<string name="taxProfileUkEstimatedPayeIncome"></string>
+	<string name="taxProfileUkOtherIncome"></string>
+	<string name="taxProfileUkExemptyNic"></string>
+	<string name="taxProfileDoYouWorkFromHome"></string>
+	<string name="taxProfileWorkFromHomeHours"></string>
+
+	<!-- ================== -->
+	<!-- For UK tax summary -->
+	<!-- ================== -->
+
+	<string name="ukTaxSummarySa103fForm"></string>
+	<string name="ukTaxSummarySaSummary"></string>
+	<string name="ukTaxSummarySaCategory"></string>
+
+	<!-- example: "Total Estimated Taxes 2016-17" -->
+
+	<string name="ukTaxSummaryTotalEstimatedTaxes"></string>
+
+	<!-- example: "Total Allowable Expense 2016-17" -->
+
+	<string name="ukTaxSummaryTotalAllowableExpense"></string>
+	<!-- example: "Total Disallowable Expense 2016-17" -->
+	<string name="ukTaxSummaryTotalDisAllowableExpense"></string>
+	<string name="ukTaxSummaryTotalEstimatedTax"></string>
+	<string name="ukTaxSummarySATotalAllowableExpense"></string>
+	<string name="ukTaxSummarySATotalDisAllowableExpense"></string>
+
+	<!-- example: "2016-17" (shows the supported tax years) -->
+
+	<string name="uktaxYear"></string>
+
+	<!-- example: "2016-17" (shows the supported tax years) -->
+
+	<string name="autaxYear"></string>
+
+	<string name="taxSummaryTotalBusinessExpenses"></string>
+
+	<string-array name="ukTaxSummarySACategory">
+		<item></item>
+		<item></item>
+	</string-array>
+
+	<string name="fdpFailedAccountActivityTitle"></string>
+
+
+
+	<!-- App Shortcut strings -->
+
+	<string name="appShortcutAddTrip"></string>
+	<string name="appShortcutAddReceipt"></string>
+	<string name="appShortcutAddInvoice"></string>
+	<string name="appShortcutAddTxn"></string>
+
+	<!-- ================= -->
+	<!-- FTU offer strings -->
+	<!-- ================= -->
+	<string name="ftuOfferCelebrationContentDesc"></string>
+
+	<!-- FTU Mileage Tracking strings -->
+	<string name="ftuMileageTracking"></string>
+	<string name="ftuMileageTrackingTitleText"></string>
+	<string name="ftuMileageTrackingLearnMore"></string>
+	<string name="ftuMileageTrackingTurnOnText"></string>
+	<string name="ftuMileageDismissTrackingText"></string>
+
+	<!-- FTU Mileage Rules strings -->
+
+	<string name="ftuMileageRulesTitleText"></string>
+	<string name="ftuMileageRulesDescText"></string>
+	<string name="ftuMileageRulesCreateText"></string>
+	<string name="ftuMileageRuleDismissText"></string>
+
+	<!-- FTU Mileage Favourite Locations strings -->
+	<string name="ftuMileageFavoriteLocationsTitleText"></string>
+	<string name="ftuMileageFavoriteLocationsDescText"></string>
+
+	<!-- FTU Mileage Sorting strings -->
+
+	<string name="ftuMileageSortTitleText"></string>
+	<string name="ftuMileageSortDescText"></string>
+	<string name="ftuMileageSortDismissText"></string>
+
+	<!-- message for the location runtime permission dialog (explanation) -->
+	<!-- TODO check if these string IDs need to be renamed to something more generic since the location permission is requested in multiple places in the app -->
+	<string name="ftuMileageLocationPermissionTitle"></string>
+	<string name="ftuMileageLocationPermissionMessage"></string>
+	<string name="ftuMileageLocationPermissionPositiveAction"></string>
+	<string name="ftuMileageLocationPermissionNegativeAction"></string>
+
+	<!-- string for the snackbar showing when location permissions have been permanently denied -->
+
+	<string name="ftuMileageTrackingSettingsSnackBarText"></string>
+	<string name="ftuMileageTrackingSettingsSnackBarActionText"></string>
+
+	<!-- Receipt Export success dialog -->
+	<string name="receiptsExportSuccessTitle"></string>
+	<string name="receiptsExportSuccessMessage"></string>
+	<string name="receiptsExportSuccessPositiveAction"></string>
+
+	<string name="referAFriendFirstName"></string>
+	<string name="referAFriendLastName"></string>
+
+	<!-- strings for the date picker fragment -->
+
+	<string name="datePickerFragmentOkButtonText"></string>
+
+	<string name="dismissCard"></string>
+	<string name="cardConnectBankTitleText"></string>
+	<string name="cardMileageTitleText"></string>
+	<string name="cardTaxProfileTitleText"></string>
+	<string name="cardTurboTaxTitleText"></string>
+	<string name="cardBankErrorTitleText"></string>
+	<!-- example:  Give a friend 50% off, get 25$-->
+
+	<string name="cardReferFriendTitleText"></string>
+
+	<string name="cardOdometerStartTitleText"></string>
+	<string name="cardOdometerEndTitleText"></string>
+
+	<string name="cardOdometerStartTitleTextMileageHome"></string>
+	<string name="cardOdometerEndTitleTextMileageHome"></string>
+	<string name="cardTitleTODO"></string>
+	<string name="cardTitleActionNeeded"></string>
+
+
+	<plurals name="cardOtpTitleText">
+		<!-- example:  One bank account needs your attention-->
+		<item quantity="one"></item>
+		<!-- example:  Four bank accounts need your attention-->
+		<item quantity="other"></item>
+	</plurals>
+
+	<plurals name="cardTransactionTitleText">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+
+	<plurals name="cardTripsTitleText">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<plurals name="cardTrialTitleText">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="cardInvoiceTitleText"></string>
+	<string name="cardSetupPaymentsTitleText"></string>
+	<string name="cardNPSTitleText"></string>
+	<!-- example:  Don't forget to file and pay your taxes by December 31-->
+
+	<string name="cardUKPaymentReminderTitleText"></string>
+	<string name="cardImportToTtTitleText"></string>
+	<string name="cardAddUserIndustryTitleText"></string>
+	<string name="cardRatingTitleText"></string>
+	<string name="cardRatingFeedbackTitleText"></string>
+	<string name="cardRatingRateusTitleText"></string>
+	<string name="cardInviteAccountantTitleText"></string>
+	<string name="cardInviteAccountantCTAText"></string>
+	<string name="cardLaunchCUITitleText"></string>
+	<string name="cardLaunchCUICTAText"></string>
+	<string name="cardRCDiscoveryTitle"></string>
+	<string name="cardRCDiscoveryCTA"></string>
+	<string name="cardConnectBankCTAText"></string>
+	<string name="cardMileageCTAText"></string>
+	<string name="cardTaxProfileCTAText"></string>
+	<string name="cardTurbotaxCTAText"></string>
+	<string name="cardBankErrorCTAText"></string>
+	<string name="cardReferFriendCTAText"></string>
+	<string name="cardOdometerStartCTAText"></string>
+	<string name="cardOtpCTAText"></string>
+	<string name="cardTransactionCTAText"></string>
+	<string name="cardTripsCTAText"></string>
+	<string name="cardTrialCTAText"></string>
+	<string name="cardInvoiceCTAText"></string>
+	<string name="cardSetupPaymentsCTAText"></string>
+	<string name="cardNPSCTAText"></string>
+	<string name="cardUKPaymentReminderCTAText"></string>
+	<string name="cardAddUserIndustryCTAText"></string>
+	<string name="cardRatingFeedbackPrimaryText"></string>
+	<string name="cardRatingFeedbackSecondryText"></string>
+	<string name="cardRatingRateusPrimaryText"></string>
+	<string name="cardRatingRateusSecondryText"></string>
+	<string name="cardConnectBankDismissText"></string>
+	<string name="cardMileageDismissText"></string>
+	<string name="cardTaxProfileDismissText"></string>
+	<string name="cardTurbotaxDismissText"></string>
+	<string name="cardReferFriendDismissText"></string>
+	<string name="cardInvoiceDismissText"></string>
+	<string name="cardNPSDismissText"></string>
+	<string name="cardMileageSuccessText"></string>
+	<string name="cardLiveExpertTitleText"></string>
+	<string name="cardLiveExpertCTAText"></string>
+
+	<string name="cardFdpNotificationPSD2Title"></string>
+	<string name="cardFdpNotificationPSD2CTAText"></string>
+
+	<string name="cardFdpNotificationOAuthTitle"></string>
+	<string name="cardFdpNotificationOAuthErrorTitle"></string>
+	<string name="cardFdpNotificationOAuthCTAText"></string>
+
+	<!-- ================== -->
+	<!-- NPS rating strings -->
+	<!-- ================== -->
+	<string name="npsRatingToolbarTitle"></string>
+	<string name="npsRatingTip"></string>
+	<string name="npsFeedbackTextHint"></string>
+	<string name="npsFeedbackSubmitProgress"></string>
+	<string name="npsFailFeedbackDialogTitle"></string>
+	<string name="npsFailFeedbackDialogMessage"></string>
+	<string name="npsFailFeedbackDialogNegativeActionText"></string>
+	<string name="npsFailFeedbackDialogPositiveActionText"></string>
+	<string name="npsPassPlayStoreDialogTitle"></string>
+	<string name="npsPassPlayStoreDialogMessage"></string>
+	<string name="npsPassPlayStoreDialogNegativeActionText"></string>
+	<string name="npsPassPlayStoreDialogPositiveActionText"></string>
+	<string name="npsFeedbackFetchSurveyProgressText"></string>
+
+	<string name="npsRatingDialogMessage"></string>
+	<string name="npsRatingDialogLater"></string>
+	<string name="npsRatingDialogNow"></string>
+
+	<!-- =========================== -->
+	<!-- Runtime Permissions Strings -->
+	<!-- =========================== -->
+
+	<string name="permissionsAllowStorageSnackBarText"></string>
+	<string name="permissionsAllowStorageInSettingsSnackBarText"></string>
+	<string name="permissionAllowCameraAndStorageTitle"></string>
+	<string name="permissionAllowCameraAndStorageMessage"></string>
+	<string name="permissionsAllowStorageAndCameraSnackBarText"></string>
+	<string name="permissionsAllowStorageSnackBarActionText"></string>
+	<string name="permissionsAllowPermissionsSnackBarActionText"></string>
+	<string name="permissionsPositiveActionButton"></string>
+	<string name="permissionsNegativeActionButton"></string>
+	<string name="permissionsEnableInSettingsCameraSnackBarActionText"></string>
+	<string name="permissionsAccessCameraSnackBarText"></string>
+	<string name="permissionsAccessCameraInSettingsSnackBarText"></string>
+	<string name="permissionsAllowStorageTitle"></string>
+	<string name="permissionsAllowStorageMessageForInvoiceLogo"></string>
+	<string name="permissionsAllowStorageSnackBarTextForInvoiceLogo"></string>
+
+
+	<!-- example:  Total business expense $300-->
+
+	<string name="taxSummaryTotalBusinessExpense"></string>
+
+	<!-- example:  All other expenses ($200)-->
+
+	<string name="allOtherExpensesAUTaxes"></string>
+
+	<string name="otherAUExpensesImageContentDescription"></string>
+
+
+
+	<!-- =============== -->
+	<!-- Receipt Capture -->
+	<!-- =============== -->
+
+	<string name="receiptCaptureFtuTitle"></string>
+	<string name="receiptCaptureFtuDescription"></string>
+
+	<string name="receiptCaptureNeedsActionPleaseReview"></string>
+	<string name="receiptCaptureEditVendorLabel"></string>
+
+	<string name="receiptCaptureCannotShareMessage"></string>
+
+	<!-- Needs Action -->
+
+	<string name="receiptCaptureNeedsActionReceiptInfo"></string>
+	<string name="receiptCaptureNeedsActionHeaderText"></string> <!-- Eg: Needs action (3) -->
+	<string name="receiptCaptureNeedsActionText"></string>
+	<string name="receiptCaptureNeedsActionIconContentDescription"></string>
+	<string name="receiptCaptureNeedsActionUpdate"></string>
+	<string name="receiptCaptureNeedsAttentionContentDescription"></string>
+	<string name="receiptCaptureNeedsActionListHeaderText"></string>
+	<string name="receiptCaptureTransactionAccountText"></string>
+	<string name="receiptCaptureNeedsActionMatchManualDialogTitle"></string>
+	<string name="receiptCaptureNeedsActionMatchManualDialogMessage"></string>
+	<string name="receiptCaptureNeedsActionMatchSuccessSnackBarMessage"></string>
+	<string name="receiptCaptureNeedsActionMatchFoundDialogTitle"></string>
+	<string name="receiptCaptureNeedsActionMatchFoundDialogMessage"></string>
+	<string name="receiptCaptureNeedsActionUpdatedDialogTitle"></string>
+	<string name="receiptCaptureNeedsActionUpdatedDialogMessage"></string>
+	<string name="receiptCaptureNeedsActionConfirmLeaveDialogTitle"></string>
+	<string name="receiptCaptureNeedsActionConfirmLeaveDialogMessage"></string>
+
+	<!-- Confirm Match -->
+
+	<string name="receiptCaptureConfirmMatchScreenConfirmDeleteDialogMessage"></string>
+	<string name="receiptCaptureDeleteReceiptProgressText"></string>
+
+	<!-- receipt capture placeholder text labels -->
+
+	<string name="receiptCapturePlaceHolderVendor"></string>
+	<string name="receiptCapturePlaceHolderAmount"></string>
+	<string name="receiptCapturePlaceHolderDate"></string>
+
+	<!-- Search transactions to match with receipt -->
+
+	<string name="receiptCaptureSearchTransactionsTitle"></string>
+	<string name="receiptCaptureSearchTransactions"></string>
+	<string name="receiptCaptureSearchTransactionReceiptInfoTitleText"></string>
+	<!-- example:  Home Depot | $23.66 | 7/21/16-->
+
+	<string name="receiptCaptureSearchTransactionReceiptInfo"></string>
+	<string name="receiptCaptureSearchTransactionListMatchingProgressText"></string>
+	<string name="receiptCaptureMatchTransactionDialogTitle"></string>
+	<string name="receiptCaptureMatchTransactionDialogMessage"></string>
+	<string name="receiptCaptureNoMatchingTransactionsText"></string>
+
+	<!-- Receipt capture strings for after FAB action -->
+
+	<string name="receiptCaptureUploadConfirmDialogTitle"></string>
+	<string name="receiptCaptureUploadConfirmDialogMessage"></string>
+	<string name="receiptCaptureUploadConfirmDialogContentDescription"></string>
+	<string name="receiptCaptureUploadFtuSnackBarMessage"></string>
+	<string name="receiptCaptureAddingReceiptProgressDialogText"></string>
+	<string name="receiptCaptureReceiptAddedMessage"></string>
+	<string name="receiptCaptureShowProgressDeleteTransaction"></string>
+
+	<!-- the strings for the amt/date/vendor compound control -->
+
+	<string name="receiptCaptureEditableTxnDataAmountHintText"></string>
+	<string name="receiptCaptureEditableTxnDataDateHintText"></string>
+	<string name="receiptCaptureEditableTxnDataVendorHintText"></string>
+	<string name="receiptCaptureEditableTxnDataHintTextAsterisk"></string>
+
+	<!-- ======================= -->
+	<!-- Mint X Sell Import Flow -->
+	<!-- ======================= -->
+
+	<string name="mintFoundHeadline"></string>
+	<string name="mintFoundMessage"></string>
+	<string name="mintFoundContentDescription"></string>
+	<string name="mintFoundPositiveAction"></string>
+	<string name="mintConnectHeadline"></string>
+	<string name="mintConnectBulletPoint"></string>
+	<string name="mintConnectMessage1"></string>
+	<string name="mintConnectMessage2"></string>
+	<string name="mintConnectMessage3"></string>
+	<string name="mintConnectPositiveAction"></string>
+	<string name="mintConnectNegativeAction"></string>
+	<string name="mintLogoContentDescription"></string>
+	<string name="mintQbLogoContentDescription"></string>
+	<string name="mintConnectProgress"></string>
+	<string name="mintConnectDeclineProgress"></string>
+	<string name="mintErrorDialogTitle"></string>
+	<string name="mintErrorDialogMessage"></string>
+	<string name="mintErrorDialogAction"></string>
+	<string name="mintSelectAccountsHeadline"></string>
+	<string name="mintSelectAccountsMessage"></string>
+	<string name="mintSelectAccountsAction"></string>
+	<string name="mintSelectAccountsProgressMessage"></string>
+	<string name="mintImportAnimationNotify"></string>
+	<string name="mintImportAnimationPullingTxns"></string>
+	<string name="mintImportAnimationFewMinutes"></string>
+	<string name="mintImportAnimationBeamingUp"></string>
+	<string name="mintImportAnimationSpaceTime"></string>
+	<string name="mintImportAnimationRoads"></string>
+	<string name="mintImportAnimationFinishingUp"></string>
+	<string name="mintImportResultsHeadline"></string>
+	<string name="mintImportResultsMessage"></string>
+	<string name="mintBackButtonBeforeImportHeadline"></string>
+	<string name="mintBackButtonBeforeImportMessage"></string>
+	<string name="mintBackButtonBeforeImportPositiveAction"></string>
+	<string name="mintBackButtonBeforeImportNegativeAction"></string>
+	<string name="mintBackButtonDuringImportHeadline"></string>
+	<string name="mintBackButtonDuringImportMessage"></string>
+	<string name="mintBackButtonDuringImportPositiveAction"></string>
+	<string name="mintSnackbarCelebrationMessage"></string>
+	<string name="mintSnackbarErrorMessage"></string>
+	<string name="mintSnackbarAction"></string>
+
+
+	<string name="businessMileagePercentageLabel"></string>
+	<!-- example:  Total mileage driver 3000-->
+
+	<string name="totalMileageDriven"></string>
+	<!-- example:  Total Business mileage driver 3000-->
+
+	<string name="totalBusinessMileageDriven"></string>
+	<!-- example:  Odometer on 1 March 2017 -->
+	<string name="odometerOn"></string>
+
+	<!-- example:  30%-->
+
+	<string name="businessMileagePercentage"></string>
+
+	<string name="odometerWarning"></string>
+
+	<string name="motorVehicleTaxSubLabelNoPercentage"></string>
+
+	<!-- example: 70% of this amount is  deductible-->
+
+	<string name="motorVehicleTaxSubLabel"></string>
+
+
+	<!-- ============================== -->
+	<!-- Celebration framework strings. -->
+	<!-- ============================== -->
+
+	<string name="mileageFirstBusinessCelebration"></string>
+	<plurals name="tripAutoCategorized">
+		<item quantity="zero"></item>
+		<!-- example: 1 trip auto-categorized for 2019-->
+		<item quantity="one"></item>
+		<!-- example: 7 trips auto-categorized for 2019-->
+		<item quantity="other"></item>
+	</plurals>
+	<string name="subscribeCelebration"></string>
+	<!-- example: 20 transactions auto-categorized.-->
+	<string name="autoCatTransactions"></string>
+	<string name="autoCatTransactionsCTA"></string>
+	<string name="transactionRulesApplied"></string>
+	<!-- example: 10 receipts matched/added to transactions-->
+	<string name="transactionRCMatched"></string> <!-- Example: 3 receipts matched/added to transactions -->
+
+	<string name="default_vehicle_name"></string>
+	<string name="vechileDetailConfirmDialogTitle"></string>
+	<string name="vehicleDetailConfirmDialogPositiveAction"></string>
+	<string name="vehicleDetailConfirmDialogNegativeAction"></string>
+	<string name="vehicleDetailConfirmDialogMessage"></string>
+
+
+	<!-- =============================================================================== -->
+	<!-- Country Independent Strings Please add other country specific string above this -->
+	<!-- =============================================================================== -->
+
+	<string name="zipCode" translatable="false">ZIP code</string>
+	<string name="postCode" translatable="false">Postcode</string>
+	<string name="postalCode" translatable="false">Postal code</string>
+
+	<string name="state" translatable="false">State</string>
+	<string name="province" translatable="false">Sales tax province</string>
+
+	<string name="mileage" translatable="false">MILEAGE</string>
+	<string name="kilometers" translatable="false">KILOMETRES</string>
+
+	<!-- =============== -->
+	<!-- Category picker -->
+	<!-- =============== -->
+
+	<string name="pickerSearchCategories"></string>
+	<string name="pickerGroupIconContentDescription"></string>
+	<string name="pickerCategotyInformationIconContentDescription"></string>
+
+	<!-- ======================== -->
+	<!-- Export to Turbo Tax Page -->
+	<!-- ======================== -->
+
+	<string name="ttExportCloseIconContentDescription"></string>
+	<string name="ttExportHeroImageContentDescription"></string>
+	<string name="ttExportDataToTT"></string>
+	<string name="ttExportSignQbToExport"></string>
+	<string name="ttExportSignInLink" translatable="false"><b><a href="https://selfemployed.intuit.com/login">selfemployed.intuit.com/login</a></b></string>
+	<string name="ttExportClickToExport"></string>
+	<string name="ttExportClickTaxChecklist"></string>
+	<string name="ttExportClickChecklist"></string>
+	<string name="ttExportRequiresSelfEmployedBundle"></string>
+	<string name="ttExportOne"></string>
+	<string name="ttExportTwo"></string>
+	<string name="ttExportThree"></string>
+
+
+	<!-- User Industry strings -->
+
+	<string name="userIndustryScreenTitle"></string>
+	<string name="userIndustryHintText"></string>
+	<string name="userIndustryListLabel"></string>
+	<string name="userIndustryNoMatchText"></string>
+	<string name="userIndustryProgressText"></string>
+	<string name="userIndustrySnackBarTex"></string>
+
+	<!-- empty text for transaction category filter from taxes screen-->
+
+	<string name="emptyTransactionCategoryFilterTextTitle"></string>
+	<!-- example: you just don't have any expenses categorized as Supplies yet.-->
+
+	<string name="emptyTransactionCategoryFilterText"></string>
+
+	<!-- ================ -->
+	<!-- Category Picker -->
+	<!-- ================ -->
+
+	<string name="categoryAllCategoryTitle"></string>
+	<string name="categoryBrowseTitle"></string>
+	<string name="categoryTopCategoriesTitle"></string>
+	<string name="categoryResultsTitle"></string>
+	<string name="categoryNoResultsFoundTitle"></string>
+	<string name="categoryRecentlyUsedTitle"></string>
+	<string name="selectCategory"></string>
+
+
+	<string name="topBanksFdpActivityTitle"></string>
+
+	<!-- ================ -->
+	<!-- Sales Tax -->
+	<!-- ================ -->
+
+	<string name="salesTaxProvinceSelection"></string> <!-- only for CA -->
+	<string name="salesTaxProvinceTitle"></string>
+	<string name="salesTaxSaveButton"></string>
+	<string name="setupSalesTaxSuccessDialogTitle"></string>
+	<string name="setupSalesTaxSuccessDialogMessage"></string>
+	<string name="setupSalesTaxSuccessDialogCTA"></string>
+	<string name="salesTaxBadgeGST"></string>
+	<string name="salesTaxBadgeSalesTax"></string>
+	<string name="salesTaxSummaryHeaderTitleCA"></string>
+	<string name="salesTaxSummaryHeaderTitleAU"></string>
+	<string name="salesTaxSummaryHeaderSubTitle"></string>
+	<string name="salesTaxTransactionProvincePickerContentDescription"></string>
+	<string name="salesTaxCardDismiss"></string>
+	<string name="salesTaxEducationDialogTitle"></string>
+	<string name="salesTaxEducationDialogMessage"></string>
+
+	<!-- ================ -->
+	<!-- Invoice Sales Tax -->
+	<!-- ================ -->
+
+	<string name="invoicingRegisteredGSTMessage"></string>
+	<string name="invoicingSetup"></string>
+	<string name="invoicingSaleTax"></string>
+	<string name="invoicingGST"></string>
+	<string name="invoicingProvinceSelectionMessage"></string>
+	<string name="invoicingHowShowSalesTaxMessage"></string>
+	<string name="invoicingHowShowGSTMessage"></string>
+	<string name="invoicingCardGSTTitleText"></string>
+	<string name="invoicingSetupGST"></string>
+	<string name="invoicingSetupGSTNotSure"></string>
+	<string name="invoicingStopManagingSalesMessage"></string>
+	<string name="invoicingStopManagingSalesTitle"></string>
+	<string name="invoicingInclusive"></string>
+	<string name="invoicingExclusive"></string>
+	<string name="invoicingInclusiveRadioDescription"></string>
+	<!-- example: "Sales tax for your region is GST (5.00%) + PST (7.00%)" -->
+
+	<string name="invoicingNoteSalesTax"></string>
+	<string name="invoicingBracketedInclusive"></string>
+	<string name="invoicingBracketedExclusive"></string>
+	<string name="invoicingSelectProvince"></string>
+	<string name="invoicingSalesTaxInfoContentDescription"></string>
+	<string name="invoicingBusinessGstNoteMessage"></string>
+	<string name="provinceBritishColumbia"></string>
+	<string name="provinceManitoba"></string>
+	<string name="provinceNewBrunswick"></string>
+	<string name="provinceNewfoundland"></string>
+	<string name="provinceNorthwestTerritories"></string>
+	<string name="provinceNovaScotia"></string>
+	<string name="provinceNunavut"></string>
+	<string name="provinceOntario"></string>
+	<string name="provincePrinceEdwardIsland"></string>
+	<string name="provinceSaskatchewan"></string>
+	<string name="provinceYukon"></string>
+	<string name="provinceAlberta"></string>
+
+	<!-- Mileage Tracking Troubleshooting screen -->
+	<string name="settingMileageTroubleshootCriticalSectionTitle"></string>
+	<string name="settingMileageTroubleshootOptionalSectionTitle"></string>
+	<string name="settingDataSaver"></string>
+	<string name="settingDataSaverDescription"></string>
+	<string name="settingDataSaverStatus"></string>
+	<string name="settingWIFI"></string>
+	<string name="settingWIFIDescription"></string>
+	<string name="settingWIFIStatus"></string>
+	<string name="settingLocationSettings"></string>
+	<string name="settingLocationSettingsDescription"></string>
+	<string name="settingLocationSettingsStatus"></string>
+	<string name="settingLocationAccuracy"></string>
+	<string name="settingLocationAccuracyDescription"></string>
+	<string name="settingLocationAccuracyStatus"></string>
+	<string name="settingLocationPermissions"></string>
+	<string name="settingLocationPermissionsDescription"></string>
+	<string name="settingPhysicalActivityPermission"></string>
+	<string name="settingPhysicalActivityPermissionDescription"></string>
+	<string name="settingBatteryOptimization"></string>
+	<string name="settingBatteryOptimizationDescription"></string>
+	<string name="settingBatterySaver"></string>
+	<string name="settingBatterySaverDescription"></string>
+	<string name="settingLocationPermissionsStatus"></string>
+	<string name="settingPhysicialActivityPermissionStatus"></string>
+	<string name="settingBatteryOptimizationStatus"></string>
+	<string name="settingBatterySaverStatus"></string>
+	<string name="settingMileageTracking"></string>
+	<string name="settingMileageTrackingDescription"></string>
+	<string name="settingMileageTrackingStatus"></string>
+	<string name="settingMileageTrackingCtaText"></string>
+	<string name="activityTrackerMoreSupport"></string>
+	<string name="emailSendLogsBodyAccount"></string>
+	<string name="emailSendLogsBodyInfo"></string>
+	<string name="emailSendLogsSubject"></string>
+	<string name="learnMoreText"></string>
+	<string name="learnMoreLinkText"></string>
+	<string name="mileageTrackingNotificationTitle"></string>
+	<string name="mileageTrackingNotificationTicker"></string>
+	<string name="tripCategorizationNotificationTitle"></string>
+	<string name="batteryOptimizationNotificationTitle"></string>
+	<string name="batteryOptimizationNotificationMessage"></string>
+	<string name="locationDialogTitle"></string>
+	<string name="locationDialogMessage"></string>
+	<string name="settingsSendLogActivityTitle"></string>
+	<string name="settingsSendLogEmailSentDialogTitle"></string>
+	<string name="settingsSendLogEmailSentDialogMessage"></string>
+
+
+	<!-- app shell -->
+	<string name="appshell_error"></string>
+
+	<!-- receipt email fwd -->
+	<string name="cardReceiptEmailFwdTitleText"></string>
+	<string name="cardReceiptEmailFwdCTAText"></string>
+	<string name="cardReceiptEmailFwdPostActionText"></string>
+	<string name="cardReceiptEmailFwdDialogTitle"></string>
+	<string name="cardReceiptEmailFwdDialogMessage"></string>
+	<string name="cardReceiptEmailFwdDialogPositiveText"></string>
+	<string name="cardReceiptEmailFwdDialogNegativeText"></string>
+	<string name="receiptEmailFwdTitle"></string>
+	<string name="receiptEmailFwdVerify"></string>
+	<string name="receiptEmailFwdVerifyEmail"></string>
+	<string name="receiptEmailFwdVerifyEmailSubtitle"></string>
+	<string name="receiptEmailFwdVerifyEmailMessage"></string>
+	<string name="receiptEmailFwdCheckEmail"></string>
+	<string name="receiptEmailFwdEmailSentMessage"></string>
+	<string name="receiptEmailFwdVerificationHint"></string>
+	<string name="receiptEmailFwdDidNotGetEmail"></string>
+	<string name="receiptEmailFwdEdsFailureTitle"></string>
+	<string name="receiptEmailFwdEdsFailureBody"></string>
+	<string name="receiptEmailFwdEdsReload"></string>
+	<string name="receiptEmailFwdSuccessUserEmailTitle"></string>
+	<string name="receiptEmailFwdSuccessQbseEmailTitle"></string>
+	<string name="receiptEmailFwdSuccessQbseEmail"></string>
+	<string name="receiptEmailFwdSuccessAddToContact"></string>
+	<string name="receiptEmailFwdSuccessReceiveNotification"></string>
+	<string name="receiptEmailFwdResendDialogMessage"></string>
+	<string name="receiptEmailFwdResendDialogTitle"></string>
+	<string name="receiptEmailFwdResendDialogPositiveText"></string>
+	<string name="receiptEmailFwdServerErrorTitle"></string>
+	<string name="receiptEmailFwdServerErrorMessage"></string>
+	<string name="receiptEmailFwdProgressLoading"></string>
+	<string name="receiptEmailFwdProgressError"></string>
+	<string name="receiptEmailFwdProgressErrorTitle"></string>
+	<string name="receiptEmailFwdProgressSendingEmail"></string>
+	<string name="receiptEmailFwdProgressResending"></string>
+	<string name="receiptEmailFwdProgressVerifying"></string>
+	<string name="receiptEmailFwdGoToAccount"></string>
+
+	<!-- FDP 324 Closed Accounts -->
+	<string name="closeAccountsDontReplaceText"></string>
+	<string name="closedAccountDescription"></string>
+	<string name="closedAccountConfirmationPositiveMessage"></string>
+	<string name="closedAccountConfirmationStatusPositiveMessage"></string>
+	<string name="closedAccountConfirmationNewAccount"></string>
+	<string name="closedAccountConfirmationClosedAccount"></string>
+	<string name="closedAccountConfirmationNoReplacement"></string>
+	<string name="closedAccountConfirmText"></string>
+	<string name="closedAccountDoneText"></string>
+	<string name="manageBanksClosedAccountErrorMessage"></string>
+	<string name="manageBanksClosedAccountProgressBarMessage"></string>
+	<string name="manageBanksClosedAccountToolbarTitle"></string>
+	<string name="replaceNewAccountExplanation"></string>
+	<string name="closedAccountExplanation"></string>
+	<string name="closedAccountRequestError"></string>
+	<string name="closedAccountReconcileSuccessMessage"></string>
+	<string name="reviewAccountButtonText"></string>
+	<string name="radio_button"></string>
+	<string name="alertIcon"></string>
+	<string name="agreeButtonText"></string>
+	<string name="fixConnection"></string>
+	<string name="markAccountClose"></string>
+	<string name="transactionStayInQB"></string>
+	<string name="learnMore"></string>
+
+	<!-- FDP related -->
+	<string name="manageBanksPSD2ErrorMessage"></string>
+	<string name="updateNowText"></string>
+
+	<!-- FDP Open Banking reauth messages -->
+	<!-- example: Update your Bank of America connection in the next 12 days -->
+	<string name="fdpReviewConnection"></string>
+	<plurals name="fdpUpdateConnectionDays">
+		<item quantity="zero"></item>
+		<!-- example: "in 1 day" or "in 4 days" - used to show within the manageBanksOpenBankingReauthWarningUK value -->
+		<item quantity="one"></item>
+
+		<!-- example: "in 1 day" or "in 4 days" - used to show within the manageBanksOpenBankingReauthWarningUK value -->
+		<item quantity="other"></item>
+	</plurals>
+
+	<!-- FDP OAuth messages -->
+	<string name="manageBanksOAuthInfoMessage"></string>
+	<string name="updateConnectionNowText"></string>
+	<plurals name="manageBanksOAuthWarnMessage">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="manageBanksOAuthErrorMessage"></string>
+	<string name="manageBanksOAuthErrorCTAText"></string>
+	<string name="manageBanksOAuthFailed"></string>
+	<string name="continueText"></string>
+	<string name="manageBanksOAuthInProgress"></string>
+	<string name="manageBanksOpenBankingReauthWarningUK" translatable="false">&lt;b>%1$s connection expires %2$s&lt;/b>&lt;br>&lt;br>UK Open Banking regulation requires you to update your connection every &lt;b>90 days&lt;/b>. Update now to keep transactions coming into QuickBooks.</string>
+	<string name="manageBanksOpenBankingReauthErrorUK" translatable="false">&lt;b>%1$s connection expired&lt;/b>&lt;br>&lt;br>UK Open Banking regulation requires you to directly authorise your connection every &lt;b>90 days&lt;/b>. Reconnect now to keep transactions coming into QuickBooks.</string>
+	<string name="manageBanksOpenBankingReauthWarningCTA"></string>
+	<string name="manageBanksOpenBankingReauthErrorCTA"></string>
+
+	<!-- FDP Caf messages -->
+	<plurals name="manageBanksCAFWarnMessage">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="CAFInfoMessage"></string>
+	<string name="CAFInfoBeforeGraceMessage"></string>
+	<string name="manageBanksCAFPendingMessage"></string>
+	<string name="manageBanksCAFPendingCTAText"></string>
+	<string name="manageBanksCAFRejectMessage"></string>
+	<string name="manageBanksCAFRejectCTAText"></string>
+	<string name="manageBanksCAFGraceExpiredMessage"></string>
+	<string name="okCTAText"></string>
+
+	<string name="cafMigrateInfo"></string>
+	<string name="cafMigrateInfo1"></string>
+
+	<plurals name="cafMigrateWarning">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+
+	<string name="cafStatus229"></string>
+	<string name="cafStatus216"></string>
+	<string name="cafStatus211"></string>
+	<string name="cafStatus217"></string>
+	<string name="cafStatus220"></string>
+	<string name="cafStatus222"></string>
+	<string name="cafStatusCOMPLETED"></string>
+	<string name="cafStatus210"></string>
+	<string name="cafStatus377"></string>
+	<string name="cafStatus221"></string>
+	<string name="cafStatusFAILED"></string>
+	<string name="cafStatus226"></string>
+	<string name="cafStatus218"></string>
+	<string name="cafStatus214"></string>
+	<string name="cafStatus208"></string>
+	<string name="cafStatusINPROGRESS"></string>
+	<string name="cafStatus219n223"></string>
+	<string name="cafStatus228"></string>
+	<string name="cafStatus230"></string>
+	<string name="cafStatus213"></string>
+	<string name="cafStatus227"></string>
+	<string name="cafStatus225"></string>
+	<string name="cafStatus212"></string>
+	<string name="cafStatus209"></string>
+	<string name="cafStatus224"></string>
+	<string name="cafStatus215"></string>
+	<string name="cafStatus205"></string>
+	<string name="cafStatus206n207"></string>
+
+	<string name="cafCTACancel"></string>
+	<string name="cafCTAGetMoreInfo"></string>
+	<string name="cafCTAGetStarted"></string>
+	<string name="cafCTASwitchNow"></string>
+	<string name="cafCTAReprint"></string>
+
+	<string name="cafDataGapPostMigration"></string>
+	<!-- Example: Heads Up! Check for missing transactions from 18/2/2018 to 18/3/2018. Tap below to learn how to upload them. -->
+
+	<!-- new tax year modal strings -->
+	<string name="newTaxYearTitle"></string>
+	<!-- example: We cleared your dashboard to make room for your 2018 data. -->
+	<string name="newTaxYearMessage1"></string>
+	<string name="newTaxYearMessage2"></string>
+	<string name="newTaxYearDashboardCTA"></string>
+
+	<!-- web announcement strings-->
+	<string name="webAnnouncementHeadline"></string>
+	<string name="webAnnouncementMessage1"></string>
+	<string name="webAnnouncementDescriptionAU"></string>
+	<string name="webAnnouncementDescriptionCA"></string>
+	<string name="webAnnouncementCtaText"></string>
+
+	<!-- filter sheet strings -->
+	<string name="filterTitle"></string>
+	<string name="filterSortBy"></string>
+	<string name="filterByStatus"></string>
+	<string name="filterByYear"></string>
+	<string name="filterByTimeframe"></string>
+	<string name="filterByAccountTitle"></string>
+
+	<!-- contractor start trial strings -->
+	<string name="contractorStartTrialTitle"></string>
+	<string name="contractorStartTrialSubTitle"></string>
+	<string name="contractorStartTrialMileageTracking"></string>
+	<string name="contractorStartTrialExpenseTracking"></string>
+	<string name="contractorStartTrialReceiptCapture"></string>
+	<string name="contractorStartTrialMileageTrackingContentDescription"></string>
+	<string name="contractorStartTrialExpenseTrackingContentDescription"></string>
+	<string name="contractorStartTrialReceiptCaptureContentDescription"></string>
+	<string name="contractorStartTrialCta"></string>
+	<string name="contractorStartTrialOnlineSignIn"></string>
+
+	<!-- QB Assistant invoke phrases -->
+	<string name="assistantTitle"></string>
+	<string name="assistantInvokeHelp"></string>
+	<string name="assistantInvokeHomeOfficeDeduction"></string>
+	<string name="assistantInvokeInvoiceTrips"></string>
+	<string name="assistantInvokeEstimatedTax"></string>
+	<string name="assistantInvokeTakeHomePay"></string>
+	<string name="assistantInvokeMileagePercent"></string>
+	<string name="assistantInvokeGSTInfo"></string>
+	<string name="assistantInvokeSetupPayments"></string>
+	<string name="assistantInvokeFeedback"></string>
+
+	<!--Delete duplicates flow strings-->
+	<string name="deleteDuplicationActivityTitle"></string>
+	<string name="deleteDuplicateTransactionErrorMessage"></string>
+	<string name="deleteDuplicateTransactionPositiveButton"></string>
+	<string name="dedupeExplanationMessage"></string>
+	<plurals name="deleteDuplicateResolvedMessage">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="gatherDuplicates"></string>
+	<string name="deleteDuplicatesAllTransactionsCleared"></string>
+	<string name="deleteDuplicateCountSubtitle"></string>
+
+	<string name="keepMarkTransactions"></string>
+	<string name="keepOriginalMarkedMessage"></string>
+	<string name="keepOriginalHeaderSelectCount"></string>
+	<string name="keepOriginalAppearsAs"></string>
+	<string name="keepOriginalErrorTitle"></string>
+	<string name="keepOriginalErrorMessage"></string>
+	<string name="keepOriginalToolbarTitle"></string>
+
+
+	<!-- Mileage feedback screen -->
+	<string name="mileageFeedbackTitle"></string>
+	<string name="mileageFeedbackRatingQuery"></string>
+	<string name="mileageFeedbackOptionQuery"></string>
+	<string name="mileageFeedbackOptionSelect"></string>
+	<string name="mileageFeedbackOptionOthers"></string>
+	<string name="mileageFeedbackOthersDescription"></string>
+	<string name="mileageFeedbackOthersHintText"></string>
+	<string name="mileageFeedbackPopupTitle"></string>
+	<string name="mileageFeedbackPopupMessage"></string>
+	<string name="mileageFeedbackPopupMessageHighScore"></string>
+	<string name="mileageFeedbackBad"></string>
+	<string name="mileageFeedbackPoor"></string>
+	<string name="mileageFeedbackOk"></string>
+	<string name="mileageFeedbackGood"></string>
+	<string name="mileageFeedbackGreat"></string>
+
+
+	<string-array name="mileageFeedbackOptions">
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+
+	<string name="serverDownTitle"></string>
+	<string name="serverDownMessage"></string>
+	<string name="serverDownImageContentDescription"></string>
+	<string name="share"></string>
+
+	<!-- Mileage Tracking Learn More page: GDPR -->
+	<string name="amtLearnMoreTitle"></string>
+	<string name="amtLearnMoreLocationSection"></string>
+	<string name="amtLearnMoreLocationDesc"></string>
+	<string name="amtLearnMoreMotionSection"></string>
+	<string name="amtLearnMoreMotionDesc"></string>
+	<string name="amtLearnMorePrivacyStmtFull"></string>
+	<string name="amtLearnMorePrivacyStmtConcise"></string>
+
+	<!-- info card -->
+	<string name="dontMissThis"></string>
+	<string name="sinceYourLastLogin"></string>
+	<string name="heads_up"></string>
+
+	<!-- Smart Groups card -->
+	<string name="tripSmartGroupsCardFTUMessage"></string>
+	<string name="tripSmartGroupsCardMessage"></string>
+	<string name="checkItOut"></string>
+
+	<!-- Smart Groups -->
+	<string name="smartGroupsTitle"></string>
+	<string name="smartGroupsSubTitle"></string>
+	<string name="smartGroupsFTUTitle"></string>
+	<string name="smartGroupsFTUSubTitle"></string>
+	<string name="smartGroupsActivityTitle"></string>
+	<string name="smartGroupsFTUMap"></string>
+	<string name="actionButtonTitle"></string>
+	<string name="reviewSimilarTrips"></string>
+	<string name="potentialDeductionAmount"></string>
+	<string name="selectedTripsMessage"></string>
+	<string name="reviewGroupsTitle"></string>
+	<string name="reviewTripsLabel"></string>
+	<string name="potentialDeductionLabel"></string>
+	<string name="smartGroupsTripsInfoLabel"></string>
+	<string name="smartGroupsTripRemainingInfoLabel"></string>
+	<string name="smartGroupsZeroState"></string>
+	<string name="smartGroupsTripListZeroState"></string>
+	<string name="smartGroupMarkPersonal"></string>
+	<string name="smartGroupMarkBusiness"></string>
+	<string name="tripSmartGroupsMapContentDescription"></string>
+	<string name="tripSmartGroupsIconContentDescription"></string>
+	<string name="tripSmartGroupsZeroStateContentDescription"></string>
+
+
+	<!-- Receipt Capture text-->
+	<string name="receiptCaptureLoadFailedText"></string>
+	<string name="contentDescAddReceipt"></string>
+	<string name="viewTxnExcludeTextDescription"></string>
+	<string name="viewTxnIncludeTxn"></string>
+	<string name="distance_kilometers_label"></string>
+	<string name="distance_kilometers_shortform"></string>
+	<string name="distance_miles_label"></string>
+	<string name="distance_miles_shortform"></string>
+
+	<!-- Content Descriptions-->
+	<string name="cdContactPicker"></string>
+	<string name="cdCustomerAddress"></string>
+	<string name="cdSearch"></string>
+	<string name="cdCompanyLogo"></string>
+	<string name="cdSearchImageContentDescription"></string>
+	<string name="cdSearchBackImageContentDescription"></string>
+	<string name="cdProvinceSelector"></string>
+	<string name="cdTripsTrafficLight"></string>
+	<string name="cdEmailEnvelope"></string>
+	<string name="cdRatingCardImage"></string>
+	<string name="cdArrowUp"></string>
+	<string name="cdArrowDown"></string>
+	<string name="cdTaxProfileSmallRoom"></string>
+	<string name="cdTaxProfileBigRoom"></string>
+	<string name="cdTripsFtuCar"></string>
+	<string name="cdBulletSeperator"></string>
+	<string name="cdItemCloseAccount"></string>
+	<string name="cdEdsRegistrationFailed"></string>
+	<string name="cdServerError"></string>
+	<string name="cdMintImportPlusIcon"></string>
+	<string name="cdSearchVendor"></string>
+	<string name="cdMintAccountselected"></string>
+	<string name="cdReceiptEmailFwdLockIcon"></string>
+	<string name="cdMoreInfo"></string>
+	<string name="rcConfirmationTextMessage"></string>
+	<string name="rcDoubleCheckStr"></string>
+	<string name="rcUploadBtnAction"></string>
+	<string name="rcBtnRetakeAction"></string>
+	<string name="rcImgReceiptContentDesc"></string>
+	<string name="cdNotification"></string>
+	<string name="cdClose"></string>
+	<string name="potentialDedictionsInfo"></string>
+	<string name="potentialDeductionsInfoTitle"></string>
+	<string name="mileage_rideshare_description"></string>
+	<string name="rideshareMileageFtuTitle"></string>
+	<string name="ttseRideshareCta"></string>
+	<string name="btnTtseMileageFtuText"></string>
+	<string name="cdLightBulb"></string>
+	<string name="cdGTKMWelcome"></string>
+
+	<!-- settings strings -->
+	<string name="legalTitle"></string>
+	<string name="settings_category_general_title"></string>
+	<string name="settings_category_invoicing_title"></string>
+	<string name="settings_category_mileage_tile"></string>
+	<string name="settings_category_transactions_tile"></string>
+	<string name="settings_category_mileage_title"></string>
+	<string name="settings_fingerprint_screenlock_title"></string>
+	<string name="dataExportReceiptsHeadline"></string>
+	<string name="settings_reports_summary"></string>
+	<string name="settings_reports_title"></string>
+	<string name="settings_bank_accounts_title"></string>
+	<string name="settings_bank_accounts_summary"></string>
+	<string name="settings_save_photos_title"></string>
+	<string name="settings_rules_title"></string>
+	<string name="settings_mileage_rules_title"></string>
+	<string name="settings_favorite_locations_title"></string>
+	<string name="title_activity_legal1"></string>
+	<string name="settings_legal_title"></string>
+	<string name="settings_sales_tax_title"></string>
+	<string name="settings_sign_out"></string>
+	<string name="settingsLoadingTaxProgressMessage"></string>
+	<string name="salesTaxSummaryAU"></string>
+	<string name="salesTaxSummaryCA"></string>
+	<string name="tvConnectedAccountantDescription"></string>
+	<string name="receiptEmailFwdVerifyEmailMessage2"></string>
+	<string name="email"></string>
+	<string name="emailHint"></string>
+	<!-- Help and FAQ Strings -->
+	<string name="helpScreenTitle"></string>
+
+	<!-- Address screen -->
+	<string name="clientAddress1"></string>
+	<string name="clientAddress2"></string>
+	<string name="clientCity"></string>
+	<string name="clientCountry"></string>
+	<string name="clientSelectCountry"></string>
+
+	<!-- contact info string -->
+
+	<string name="contactInfoScreenTitle"></string>
+	<string name="contactInfoEmail"></string>
+	<string name="contactInfoPhoneNumber"></string>
+	<string name="contactInfoCompany"></string>
+	<string name="contactInfoABN"></string>
+	<string name="contactInfoBusinessNumber" translatable="false">Business number (optional)</string>
+	<string name="contactInfoUploadLogo"></string>
+	<string name="contactInfoEditLogo"></string>
+	<string name="contactInfoLogoLoading"></string>
+	<string name="contactInfoEditLogoContentDescription"></string>
+	<string name="editClientAddress"></string>
+
+	<!-- the "more item" entry in the trip search list -->
+
+	<string name="tripSearchMoreItem"></string>
+
+	<!-- Dashboard/App Home Redesign -->
+	<string name="editDashTileButtonText"></string>
+	<string name="insightTileTagSeeTrends"></string>
+	<string name="insightTileGetHelpIconDescription"></string>
+	<string name="accountsTileTitle"></string>
+	<string name="accountsTileBankIssue"></string>
+	<string name="accountsTileRefreshContentDescription"></string>
+	<string name="accountsTileConnectionErrorDescription"></string>
+	<string name="accountsTileAllAccountsHiddenMessage"></string>
+	<string name="accountsTileBankAccountIconDescription"></string>
+	<string name="accountsTileZeroStateMessage"></string>
+	<string name="earningsTileTitle"></string><!-- Ex : Profit: 2018, Profit: This Quarter, etc -->
+	<string name="earningsTileHeroCaption"></string>
+
+	<string name="milesTileTitle"></string><!-- Ex : Mileage: 2018, Mileage: This Quarter, etc -->
+	<string name="milesTileHeroCaptionDeductions"></string>
+	<string name="milesTileHeroCaptionBusinessDistance"></string>
+	<string name="milesTileHeroCaptionZero"></string>
+	<!-- do not localize. -->
+	<string name="milesTileBusinessMiles" translatable="false">Business miles</string>
+	<!-- do not localize. -->
+	<string name="milesTileBusinessKilometres" translatable="false">Business kilometres</string>
+	<string name="milesTileDeductionRate"></string>
+	<!-- do not localize. -->
+	<string name="milesTileDeductionRate5kMax" translatable="false">Deduction rate (max 5,000 km/car)</string>
+	<plurals name="milesTileVehicles">
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<string name="milesTileMileagePercentForWork"></string>
+	<!-- do not localize. -->
+	<string name="milesTileValuePerKm" translatable="false">%1$s/km</string><!-- used for showing mileage rate per km eg $0.45/km -->
+	<!-- do not localize. -->
+	<string name="milesTileValuePerMi" translatable="false">%1$s/mi</string><!-- used for showing mileage rate per mi eg $0.45/mi -->
+
+	<string name="editDashModuleScreenTitle"></string>
+	<string name="editDashModuleWhatToSee"></string>
+	<!-- the dashboard module type display strings -->
+	<string name="editDashModuleTypeMileage"></string>
+	<string name="editDashModuleTypeTransaction"></string>
+	<string name="editDashModuleTypeInvoices"></string>
+	<string name="editDashModuleTypeTaxes"></string>
+	<string name="editDashModuleTypeTakeHome"></string>
+	<string name="editDashModuleTypeAccounts"></string>
+
+	<string name="invoicesTileTitle"></string>
+	<plurals name="invoicesTileCaption">
+		<item quantity="zero"></item> <!-- Ex: To be paid (4 invoices) -->
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<plurals name="invoicesTileInsight1">
+		<item quantity="zero"></item> <!-- Ex: Not due yet (3 invoices) -->
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<plurals name="invoicesTileInsight2">
+		<item quantity="zero"></item> <!-- Ex: Overdue (2 invoices) -->
+		<item quantity="one"></item>
+		<item quantity="other"></item>
+	</plurals>
+	<!-- Used for letting user know how many transactions are unreviewed and CTA to review them. eg Review 10 transactions -->
+	<!-- do not localize. -->
+	<plurals name="dashboardCardReviewTransactions" translatable="false">
+		<item quantity="one">Review %1$d transaction</item>
+		<item quantity="other">Review %1$d transactions</item>
+	</plurals>
+	<!-- Used for letting user know how many trips are unreviewed and CTA to review them. eg Review 10 trips -->
+	<!-- do not localize. -->
+	<plurals name="dashboardCardReviewTrips" translatable="false">
+		<item quantity="one">Review %1$d trip</item>
+		<item quantity="other">Review %1$d trips</item>
+	</plurals>
+
+	<!-- app home redesign" -->
+	<string name="networkErrorSummary"></string>
+	<string name="networkErrorAction"></string>
+	<string name="earningsBarChartIncome"></string>
+	<string name="earningsBarChartExpenses"></string>
+	<string name="mileageBarChartDeduction"></string>
+	<string name="insightTileErrorMessage"></string>
+	<string name="insightScreenMilesMessage"></string> <!-- Ex: Business kilometers -->
+	<string name="insightScreenProfitMessage"></string>
+	<string name="insightScreenSpendingMessage"></string>
+	<string name="insightScreenFilter"></string>
+	<string name="insightScreenFilterContentDescription"></string>
+	<string name="invoiceAppHomeFTUCardCTA"></string>
+	<string name="insightLegendSeparator"></string>
+	<plurals name="insightReviewMileageMessage">
+		<item quantity="one">""</item>
+		<item quantity="other">""</item>
+	</plurals>
+	<plurals name="insightReviewTransactionsMessage">
+		<item quantity="one">""</item>
+		<item quantity="other">""</item>
+	</plurals>
+	<string name="insightRowIconContentDescription"></string>
+	<string name="insightRowCtaIconContentDescription"></string>
+	<string name="insightCardSeparatorContentDescription"></string>
+	<string name="insightCardDismissContentDescription"></string>
+	<string name="insightBusinessCardContentDescription"></string>
+	<string name="insightDefaultTitle"></string>
+	<string name="insightBankingTitle"></string>
+	<string name="insightMileageTitle"></string>
+	<string name="ftuHeadlineGetSetUp"></string>
+	<string name="taxInsightTileCaption"></string>
+	<!--Q3 estimated tax-->
+	<string name="taxInsightTileData1Caption"></string>
+	<!--2018 estimated tax-->
+	<string name="taxInsightTileData2Caption"></string>
+
+	<!-- app store prompt -->
+	<string name="appStoreCheckInTitle"></string>
+	<string name="appStoreCheckInMessage"></string>
+	<string name="appStoreFeedBackTitle"></string>
+	<string name="appStoreFeedBackMessage"></string>
+	<string name="appStoreFeedBackLater"></string>
+	<string name="appStoreGooglePlayTitle"></string>
+	<string name="appStoreGooglePlayMessage"></string>
+	<string name="appStoreGooglePlayLater"></string>
+	<string name="appStoreGreat"></string>
+	<string name="appStoreNotGreat"></string>
+
+
+	<!-- Mileage FTU and empty state -->
+	<string name="mileageEmptyStateTitleUnreviewedAutoTrackingOff"></string>
+	<string name="mileageEmptyStateSubTitleUnreviewedAutoTrackingOff"></string>
+	<string name="mileageEmptyStateTitleUnreviewedAutoTrackingOn"></string>
+	<string name="mileageEmptyStateSubTitleUnreviewedAutoTrackingOn"></string>
+	<string name="mileageEmptyStateTitleReviewed"></string>
+	<string name="mileageEmptyStateSubTitleReviewed"></string>
+	<string name="mileageFilterEmptyStateTitle"></string>
+	<string name="mileageFilterEmptyStateSubTitle"></string>
+	<string name="mileageFTUTitle"></string>
+	<string name="mileageFTUCardTitleMi"></string>
+	<string name="mileageFTUCardTitleKm"></string>
+	<string name="mileageFTUCardAMTOnTitle"></string>
+	<string name="mileageFTUCardCTA"></string>
+	<string name="mileageTroubleShootCard"></string>
+	<string name="mileageTroubleShootCardFix"></string>
+	<string name="mileageAddRuleTitle"></string>
+	<string name="mileageEditRuleTitle"></string>
+
+	<!-- Push Notifications -->
+	<string name="pushNotificationTitle"></string>
+	<string name="pushNotificationGet"></string>
+	<string name="pushNotificationCustomize"></string>
+	<string name="pushNotificationCustomizeWithoutNotifications"></string>
+	<string name="pushNotificationInvoiceDescription"></string>
+	<string name="pushNotificationTxnDescription"></string>
+	<string name="pushNotificationMileageDescription"></string>
+
+	<string name="pushNotificationFrequencyDay"></string>
+	<string name="pushNotificationFrequencySameDay"></string>
+	<string name="pushNotificationFrequencyOnceADay"></string>
+	<string name="pushNotificationFrequencyOnceAWeek"></string>
+	<string name="pushNotificationFrequencyOnceAMonth"></string>
+	<string name="pushNotificationFrequencyEachTxn"></string>
+	<string name="pushNotificationFrequencyEachTrip"></string>
+
+	<string name="pushNotificationInvoicing"></string>
+	<string name="pushNotificationInvoices"></string>
+	<string name="pushNotificationInvoiceHeader"></string>
+	<string name="pushNotificationInvoiceViewed"></string>
+	<string name="pushNotificationInvoicePaid"></string>
+	<string name="pushNotificationInvoiceDue"></string>
+	<string name="pushNotificationInvoiceUpcomingDue"></string>
+
+	<string name="pushNotificationTxns"></string>
+	<string name="pushNotificationTxnHeader"></string>
+	<string name="pushNotificationTxnsToReview"></string>
+	<string name="pushNotificationReceiptsToReview"></string>
+
+	<string name="pushNotificationMileage"></string>
+	<string name="pushNotificationMileageHeader"></string>
+
+	<!-- account hold screen -->
+	<string name="accountHoldLogOut"></string>
+	<string name="accountHoldUpdateBillingInfoButton"></string>
+	<string name="accountHoldCantEditBillingDialogTitle"></string>
+	<string name="accountHoldCantEditBillingDialogMessage"></string>
+	<string name="accountHoldCantEditBillingDialogButton"></string>
+	<string name="accountHoldSigningOutProgressText"></string>
+
+	<!-- message showing based on the platform where the user purchased their subscription -->
+	<string name="accountHoldTitleForAndroid"></string>
+	<string name="accountHoldInfoTextForAndroid"></string>
+	<string name="accountHoldUpdateBillingInfoButtonForAndroid"></string>
+
+	<string name="accountHoldTitleForIos"></string>
+	<string name="accountHoldInfoTextForIos"></string>
+	<string name="accountHoldUpdateBillingInfoButtonForIos"></string>
+
+	<string name="accountHoldTitleForWeb"></string>
+	<string name="accountHoldInfoTextForWeb"></string>
+	<string name="accountHoldUpdateBillingInfoButtonForWeb"></string>
+
+	<!-- account hold celebratory screen -->
+	<string name="accountHoldCelebratoryImageContentDesc"></string>
+	<string name="accountHoldCelebratoryTitle"></string>
+	<string name="accountHoldCelebratorySubtitle"></string>
+	<string name="accountHoldCelebratoryButtonText"></string>
+
+	<!-- Subscription pause confirmation screen -->
+	<string name="subsPauseAccountScreenTitle"></string>
+	<string name="subsPauseAccountTitle"></string>
+	<string name="subsPauseAccountFeatureCheckMarkContentDesc"></string>
+	<string name="subsPauseAccountFeature1Text"></string>
+	<string name="subsPauseAccountFeature2Text"></string>
+	<string name="subsPauseAccountFeature3Text"></string>
+	<string name="subsPauseAccountPauseButtonText"></string>
+	<string name="subsPauseAccountCancelButtonText"></string>
+
+	<!-- Subscription pause benefits screen -->
+	<string name="subsPauseScreenTitle"></string>
+	<string name="subsPauseTitle"></string>
+	<string name="subsPauseSubtitle"></string>
+	<string name="subsPauseTakeMeBack"></string>
+
+	<!-- loss aversion screen -->
+	<string name="lossAversionBeforeYouGoTitle"></string> <!-- ex: Justin, before you go -->
+	<string name="lossAversionBeforeYouGoTitleNoName"></string>
+	<string name="lossAversionBeforeYouGoSubtitle"></string>
+	<string name="lossAversionScreenTitle"></string>
+	<string name="lossAversionTransactionDeductionTitle"></string>
+	<string name="lossAversionMileageDeductionTitle"></string>
+	<string name="lossAversionUnpaidInvoiceTitle"></string>
+	<string name="lossAversionCapturedReceiptsTitle"></string>
+	<string name="lossAversionStayWithUsButtonText"></string>
+	<string name="lossAversionCancelAnywayButtonText"></string>
+	<string name="lossAversionProgressIndicatorText"></string>
+	<string name="lossAversionDataLoadingErrorMessage"></string>
+	<string name="lossAversionDataLoadingErrorTitle"></string>
+	<string name="lossAversionDataLoadingErrorPositiveAction"></string>
+	<string name="lossAversionBetterSolutionTitle"></string>
+
+	<string name="lossAversionFindOutMore"></string>
+	<string name="lossAversionSwitchOrComparePlans"></string>
+	<string name="lossAversionSwitchOrComparePlansContentDescription"></string>
+	<string name="lossAversionUseQBToFullPotential"></string>
+	<string name="lossAversionUseQBToFullPotentialContentDescription"></string>
+	<string name="lossAversionReadWhatOtherUsersSay"></string>
+	<string name="lossAversionReadWhatOtherUsersSayContentDescription"></string>
+
+	<!-- invoice test drive tooltip -->
+	<string name="tooltipCloseIconContentDescription"></string>
+
+	<!--Get to know me-->
+	<string name="getToKnowMeWelcomeTitlePartOne"></string>
+	<string name="getToKnowMeWelcomeTitlePartTwo"></string>
+	<string name="getToKnowMeWelcomeBody"></string>
+	<string name="getToKnowMeWelcomeOnward"></string>
+	<string name="getToKnowMeWelcomeSkip"></string>
+	<string name="getToKnowMeQ1Title"></string>
+	<string name="getToKnowMeCelebrateTitle"></string>
+	<string name="getToKnowMeCelebrateBody"></string>  <!-- Eg. Graphics designers like you typically... -->
+	<string name="getToKnowMeCelebrateContinue"></string>
+
+	<string name="getToKnowMeShortDuration"></string>
+	<string name="getToKnowMeMiddleDuration"></string>
+	<string name="getToKnowMeLongDuration"></string>
+
+	<string name="gtkmContinueStep"></string>
+	<string name="gtkmQ3"></string>
+	<string name="gtkmQ3Tagline"></string>
+	<string name="gtkmUseAppMileage"></string>
+	<string name="gtkmUseAppReceipts"></string>
+	<string name="gtkmUseAppInvoices"></string>
+	<string name="gtkmUseAppTaxes"></string>
+	<string name="gtkmUseAppIncome"></string>
+	<string name="gtkmUseAppSelectedContentDescription"></string>
+	<string name="gtkmUseAppUnSelectedContentDescription"></string>
+
+	<string name="gtkmQ4"></string>
+	<string name="gtkmQ4Tagline"></string>
+	<string name="gtkmSearchIndustry"></string>
+	<string name="gtkmSearchIndustryGhostText"></string>
+	<string name="gtkmPickIndustry"></string>
+	<string name="gtkmSelectMatch"></string>
+	<string name="gtkmNoMatch"></string>
+	<string name="gtkmNoMatchDetails"></string>
+	<string name="gtkmIndustryDriving"></string>
+	<string name="gtkmIndustryRealEstate"></string>
+	<string name="gtkmIndustryConsulting"></string>
+	<string name="gtkmIndustryArt"></string>
+	<string name="gtkmIndustryPersonalCare"></string>
+	<string name="gtkmIndustryCleaning"></string>
+	<string name="gtkmIndustryNotFoundTitle"></string>
+	<string name="gtkmIndustryNotFoundDetails"></string>
+	<string name="gtkmPeople"></string>
+
+	<!-- auth/login screen -->
+	<string name="loginLogoImageDescription"></string>
+	<string name="loginIntuitLogoImageDescription"></string>
+
+	<!-- dashboard ftu screen -->
+	<string name="dashboardFTUScreenTitle"></string>
+	<string name="dashboardFTUScreenSubtitle"></string>
+	<string name="dashboardFTUScreenButton"></string>
+	<string name="dashboardFTUContentDescription"></string>
+
+	<!--Invoice push notifications FTU-->
+	<string name="invoicePushNotificationFTUTitle"></string>
+	<string name="invoicePushNotificationFTUMessage"></string>
+	<string name="invoicePushNotificationFTUButton1"></string>
+	<string name="invoicePushNotificationFTUButton2"></string>
+
+	<!--Invoice mark as unpaid warning dialog-->
+	<string name="invoiceMarkAsUnpaidWarningDialogTitle"></string>
+	<string name="invoiceMarkAsUnpaidWarningDialogMessage"></string>
+
+
+
+	<!--Invoice -ve total warning dialog-->
+	<string name="invoiceNegativeTotalTitle"></string>
+	<string name="invoiceNegativeTotalMessage"></string>
+	<string name="invoiceInvalidTotalMessage"></string>
+	<string name="invoiceNoEmailForCustomerMessage"></string>
+	<string name="itemInvalidTotalMessage"></string>
+
+	<!-- Suggested Rules -->
+	<string name="rulesConfirmation"></string> <!-- Eg: Is Target always Business supplies? -->
+	<string name="rulesDetails"></string> <!-- Eg: If so, we’ll auto-categorize your 12 unreviewed Target transactions and all future ones  -->
+	<string name="rulesAskMeLater"></string>
+	<string name="rulesConfirmAction"></string>
+	<string name="rulesCategorizing"></string> <!-- Eg: Categorizing 12 as Business-Supplies… -->
+	<string name="rulesTxnCategorized"></string>
+	<string name="rulesCreated"></string>
+	<string name="rulesEdit"></string>
+	<string name="ruleFailureTitle"></string>
+	<string name="ruleSaveFailureMessage"></string>
+	<string name="rulesSaveFailure"></string>
+	<string name="rulesGeneralFailure"></string>
+	<string name="rulesDisabledSnackbarMessage"></string> <!-- Eg: Target suggestions turned off -->
+
+	<!--Demo Pre-signup-->
+	<string name="demoExploreLabel"></string>
+	<string name="demoExploreBannerLabel"></string>
+	<string name="demoExploreBannerExitLabel"></string>
+	<string name="paymentsTitle"></string>
+	<string name="blockingDialogTitle"></string>
+	<string name="blockingDialogText"></string>
+	<string name="blockingDialogButtonText"></string>
+	<string name="demoWelcomeDialogTitle"></string>
+	<string name="demoWelcomeDialogMessage"></string>
+	<string name="demoWelcomeDialogButton"></string>
+	<string name="mileageInsightCardPotentialDeductionsLabel"></string>
+	<string name="mileageInsightCardBusinessMilesLabel"></string>
+	<string name="mileageInsightCardDeductionRateLabel"></string>
+
+</resources>
